@@ -1,0 +1,397 @@
+@media (max-width: 1555px) {
+	.mainScreen {
+		.rightPart__obert .inside {
+			width: 60%;
+		}
+	}
+}
+@media (max-width: 1440px) {
+	.mainScreen {
+		&__baba {
+			right: 0;
+		}
+		&__subHeading {
+			position: relative;
+			z-index: 1;
+		}
+		.rightPart__obert {
+			width: 70%;
+			.inside {
+				width: 100%;
+				position: relative;
+				z-index: 1;
+			}
+		}
+	}
+}
+@media (max-width: 1199px) {
+	.mainScreen {
+		&__baba {
+			width: 346px;
+			top: 187px;
+			display: none;
+		}
+		.rightPart__obert {
+			padding: 3px 0;
+			width: 100%;
+			.inside {
+				.text {
+					line-height: 1.3;
+				}
+			}
+		}
+		.testBlock__item_last input, .testBlock__item_last button {
+			margin: 0 5px;
+		}
+		.testBlock__heading {
+			font-size: 16px;
+		}
+	}
+	.eggs__item_itemSecond, .eggs__item_itemFourth {
+		margin: 0 10px;
+	}
+	.eggs__item {
+		width: 175px;
+	}
+	.eggs__text {
+		font-size: 16px;
+	}
+	.blForm1 .form__input, .blForm1 .form__button {
+		display: inline-block;
+		margin: 0 20px;
+	}
+	.blForm2 .form__button {
+		margin-top: 15px;
+	}
+	.bizmodel .item {
+		height: 450px;
+	}
+	.muchTools .bx-wrapper {
+		max-width: 790px !important;
+	}
+	.history {
+		background-size: cover;
+    	background-position: 50% -55px;
+		margin-bottom: 100px;
+		&__nout {
+			width: 100%;
+			margin-top: 40px;
+		}
+		.vid {
+			width: 77%;
+			margin: auto;
+			margin-top: -280px;
+			margin-left: 60px;
+			padding-bottom: 49.25%;
+		}
+		.rightPart {
+			padding-top: 0;
+			h3 {
+				margin-top: 0;
+			}
+		}
+		.buttons {
+			button {
+				width: 70%;
+				margin-top: 20px;
+			}
+		}
+	}
+	.open .number img {
+		margin-left: -18px;
+	}
+	.open .strangeBorder p.bot {
+		margin-top: 65px;
+	}
+	.smi .bx-wrapper {
+		max-width: 810px !important;
+	}
+	.checkin .derevo p.number:nth-child(even) {
+		margin-left: 95px;
+	}
+	.checkin .derevo {
+		p.number:nth-child(2), p.number:nth-child(3), p.number:nth-child(4) {
+			margin-top: 24px;
+		}
+		p.number:nth-child(5) {
+			margin-top: 22px;
+		}
+		p.number:nth-child(6), p.number:nth-child(7) {
+			margin-top: 23px;
+		}
+	}
+	.mainScreen .testBlock label {
+		width: 61%;
+	}
+	.blForm2 label {
+		margin: 10px 47px 0;
+	}
+}
+@media (max-width: 1120px) {
+	.open .number img {
+		margin-left: -23px;
+	}
+}
+@media (max-width: 1070px) {
+	.open .number img {
+		margin-left: -31px;
+	}
+}
+
+@media (max-width: 991px) {
+	.logo {
+		width: 100%;
+	}
+	.header p.numb, .header h4, .footer p.numb, .footer h4 {
+		font-size: 17px;
+	}
+	.mainScreen .rightPart__obert, .mainScreen .testBlock {
+		border: none;
+	}
+	.eggs__item {
+		margin-bottom: 20px;
+	}
+	.doUWant .videos__heading {
+		font-size: 16px;
+		height: 80px;
+	}
+	.bizmodel .item {
+		height: 330px;
+	}
+	.muchTools .bx-wrapper {
+		max-width: 600px !important;
+	}
+	.history {
+		.vid {
+			width: 77%;
+			margin: auto;
+			margin-top: -370px;
+			margin-left: 80px;
+			padding-bottom: 49.25%;
+		}
+		.rightPart h3 {
+			margin-top: 50px;
+		}
+	}
+	.smi .bx-viewport {
+		height: 200px !important;
+		img {
+			height: 150px;
+		}
+	}
+	.smi .bx-wrapper {
+		max-width: 660px !important;
+	}
+	.smi__sld li:hover p.hover {
+		margin-top: -90px;
+		margin-bottom: 65px;
+	}
+	.checkin .derevo p.number:nth-child(odd) {
+		margin-left: 0px;
+	}
+	.checkin .text-right p.text {
+		margin-right: 0px !important;
+	}
+	.checkin p.text {
+		margin-left: 10px !important;
+	}
+	.checkin .derevo p.number:nth-child(even) {
+		margin-left: 75px;
+	}
+	.virtualsex .col-md-offset-1 {
+		margin-left: 0;
+	}
+	.mainScreen .testBlock label {
+		width: 38%;
+	}
+}
+@media (max-width: 767px) {
+	.mainScreen .testBlock label {
+		width: 95%;
+    	margin: auto;
+		margin-top: 10px;
+	}
+	.modal .modal-dialog {
+		margin: auto;
+	}
+	.panel-group .panel+.panel {
+		margin-top: 10px!important;
+	}
+	.bizmodel {
+		position: relative;
+		z-index: 1;
+		.item {
+			height: auto;
+		}
+	}
+	.header button {
+		margin-bottom: 10px;
+	}
+	.mainScreen .testBlock {
+		height: auto;
+		button {
+			margin-top: 10px;
+		}
+	}
+	.doUWant .videos .row2 {
+		margin-bottom: 0px;
+	}
+	.doUWant .videos__heading {
+		margin-top: 20px;
+	}
+	.blForm1 .form {
+		width: 100%;
+		button {
+			margin-top: 10px;
+		}
+	}
+	.virtualsex .row2 {
+		margin-bottom: 0px;
+	}
+	.virtualsex .saloon {
+		margin-top: 25px;
+	}
+	._3dTours .modal-dialog {
+		width: 95% !important;
+	}
+	.management button {
+		width: 100%!important;
+		height: auto!important;
+	}
+	.bx-wrapper .bx-controls-direction a {
+		width: 50px !important;
+		height: 50px !important;
+		background-size: cover;
+	}
+	.bx-wrapper .bx-prev {
+		left: -50px !important;
+	}
+	.bx-wrapper .bx-next {
+		right: -50px !important;
+	}
+	.muchTools .bx-wrapper {
+		max-width: 210px !important;
+	}
+	.history .vid {
+		margin: auto;
+		margin-top: 20px;
+		padding-bottom: 55.25%;
+		width: 95%;
+	}
+	.open .strangeBorder {
+		text-align: center!important;
+		padding: 0;
+		background-image: none;
+	}
+	.smi .bx-wrapper {
+		max-width: 200px !important;
+	}
+	.smi__sld {
+		background-image: none;
+		li {
+			margin-left: 0px;
+		}
+	}
+	#modalReadTheStory.modal .modal-dialog {
+		width: 90%!important;
+	}
+	#modalReadTheStory .modal-header .close {
+		margin-right: -110px;
+	}
+	.paketi__heading {
+		margin-bottom: 25px;
+	}
+	.anyQuestions {
+		input {
+			margin-bottom: 10px!important;
+		}
+	}
+}
+@media (min-width: 768px) {
+
+}
+@media (max-width: 736px) {
+
+}
+@media (max-width: 667px) {
+
+}
+@media (max-width: 640px) {
+
+}
+@media (max-width: 568px) {
+
+}
+@media (max-width: 415px) {
+
+}
+@media (min-width: 768px) {
+	
+}
+@media (max-width: 413px) {
+	
+}
+@media (max-width: 376px) {
+	
+}
+@media (max-width: 360px) {
+
+}
+@media (max-width: 321px) {
+
+}
+#fancybox-loading, .fancybox-close, .fancybox-prev span, .fancybox-next span {
+    background-image: url(fancybox_sprite.png)!important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

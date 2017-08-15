@@ -1,0 +1,1059 @@
+.upper {
+  text-transform: uppercase; }
+
+.right {
+  text-align: right; }
+
+body {
+  font-family: 'Open Sans', sans-serif !important;
+  background-color: #0b0d13;
+  font-weight: 400; }
+
+* {
+  outline: none !important; }
+
+.modal-backdrop {
+  z-index: 100001 !important; }
+
+.modal.modalBecomeASponsor {
+  z-index: 100002 !important; }
+  .modal.modalBecomeASponsor .modal-dialog {
+    margin-top: 50px; }
+  .modal.modalBecomeASponsor ::-webkit-input-placeholder {
+    color: #b4b180 !important;
+    font-family: 'CeraRoundProDEMO-Light', sans-serif !important; }
+  .modal.modalBecomeASponsor ::-moz-placeholder {
+    color: #b4b180 !important;
+    font-family: 'CeraRoundProDEMO-Light', sans-serif !important; }
+  .modal.modalBecomeASponsor :-moz-placeholder {
+    color: #b4b180 !important;
+    font-family: 'CeraRoundProDEMO-Light', sans-serif !important; }
+  .modal.modalBecomeASponsor :-ms-input-placeholder {
+    color: #b4b180 !important;
+    font-family: 'CeraRoundProDEMO-Light', sans-serif !important; }
+  .modal.modalBecomeASponsor .close, .modal.modalBecomeASponsor .close:focus, .modal.modalBecomeASponsor .close:hover {
+    filter: alpha(opacity=100) !important;
+    opacity: 1 !important; }
+  .modal.modalBecomeASponsor .modal-body {
+    padding-top: 0; }
+  .modal.modalBecomeASponsor .modal-header {
+    padding-bottom: 0;
+    border: none;
+    text-align: center; }
+    .modal.modalBecomeASponsor .modal-header .close {
+      margin-top: -30px !important;
+      margin-right: 0px;
+      -webkit-box-shadow: none !important;
+              box-shadow: none !important; }
+  .modal.modalBecomeASponsor .modal-content {
+    padding: 30px 0;
+    background-color: #0b0d13;
+    -webkit-box-shadow: 0px 0px 123px 2px rgba(126, 132, 155, 0.49);
+    box-shadow: 0px 0px 123px 2px rgba(126, 132, 155, 0.49); }
+  .modal.modalBecomeASponsor h4.subHeading {
+    font-size: 17px;
+    color: #b4b180;
+    font-family: 'CeraRoundProDEMO-Light'; }
+  .modal.modalBecomeASponsor form {
+    width: 380px;
+    margin: auto; }
+    .modal.modalBecomeASponsor form input, .modal.modalBecomeASponsor form textarea {
+      background-color: rgba(2, 2, 3, 0.93);
+      border-color: #65758c;
+      margin-top: 25px;
+      border-radius: 1px !important;
+      color: #b4b180; }
+    .modal.modalBecomeASponsor form textarea {
+      max-width: 100%;
+      height: 150px;
+      max-height: 150px; }
+    .modal.modalBecomeASponsor form button.btn {
+      width: 100%;
+      padding-left: 0;
+      padding-right: 0;
+      background-size: 104% 51px;
+      height: 46px;
+      margin-top: 25px; }
+
+.bx-wrapper .bx-viewport {
+  background-color: transparent !important;
+  border: none !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  left: 0 !important; }
+  .bx-wrapper .bx-viewport img {
+    margin: auto; }
+
+.bx-wrapper .bx-controls-direction a {
+  top: 50% !important;
+  width: 45px !important;
+  height: 31x !important; }
+
+.bx-wrapper .bx-prev {
+  left: -70px !important; }
+
+.bx-wrapper .bx-next {
+  right: -70px !important; }
+
+.fancybox-overlay {
+  z-index: 801000 !important; }
+
+.btn {
+  background-color: transparent !important;
+  border: none !important;
+  color: #fff !important;
+  font-size: 16px !important;
+  font-family: "CeraRoundProDEMO-Regular" !important;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out; }
+
+.btn.redBtn {
+  background-image: url(../img/button.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+  .btn.redBtn:hover {
+    background-image: url(../img/buttonHover.png); }
+
+.btn.redBtn[disabled]:hover {
+  background-image: url(../img/button.png); }
+
+.btn.blackBtn {
+  background-image: url(../img/btnBlack.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+
+h1.heading {
+  font-size: 40px;
+  color: #ffffdc;
+  font-family: 'Forum-Regular';
+  margin: 20px 15px 10px; }
+
+img.telega, h1.heading {
+  display: inline-block;
+  vertical-align: middle; }
+
+#menu #_menu {
+  background-color: #0b0d13;
+  height: 135px;
+  background-image: url(../img/borderMenu.png);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  min-height: 0;
+  border-radius: 0;
+  padding-top: 3px;
+  z-index: 10001;
+  margin-bottom: 0;
+  border: none; }
+  #menu #_menu .navbar-collapse {
+    padding: 0; }
+  #menu #_menu ul {
+    width: 100%; }
+    #menu #_menu ul li {
+      float: none;
+      display: inline-block;
+      text-align: center;
+      vertical-align: middle;
+      margin: 0 50px;
+      margin-top: -23px; }
+      #menu #_menu ul li a {
+        color: #b4b180;
+        font-family: 'CeraRoundProDEMO-Light';
+        font-size: 16px;
+        text-transform: uppercase;
+        padding: 0; }
+        #menu #_menu ul li a:hover {
+          color: #ffffdc; }
+      #menu #_menu ul li.first {
+        margin-left: 0; }
+      #menu #_menu ul li.last {
+        margin-right: 0; }
+      #menu #_menu ul li.logo {
+        margin-top: 20px; }
+        #menu #_menu ul li.logo img {
+          margin-left: -4px; }
+
+.mainScr {
+  padding: 40px 0 80px;
+  background-image: url(../img/bgMain.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover; }
+  .mainScr h1 {
+    font-size: 46px;
+    color: #ffffdc;
+    font-family: 'Forum-Regular';
+    line-height: 1; }
+  .mainScr .info {
+    margin-top: 5px;
+    border: 2px solid #757f86;
+    padding: 15px; }
+    .mainScr .info .text {
+      background-color: rgba(9, 11, 15, 0.75); }
+      .mainScr .info .text p {
+        padding: 30px 0;
+        margin: 0;
+        color: #b4b180;
+        font-family: 'CeraRoundProDEMO-Light';
+        font-size: 18px; }
+        .mainScr .info .text p a {
+          color: #ffffdc;
+          text-decoration: underline; }
+        .mainScr .info .text p .date {
+          color: #c54c3c; }
+  .mainScr button.btn {
+    width: 249px;
+    height: 48px;
+    margin: 30px 0; }
+  .mainScr .videoBl {
+    border: 1px solid #757f86;
+    padding: 15px;
+    background-color: #0c0e14; }
+    .mainScr .videoBl .plyr__video-embed {
+      padding-bottom: 40.25%; }
+
+.gifts {
+  padding: 40px 0 90px;
+  background-image: url(../img/bgGifts.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover; }
+  .gifts h4 {
+    margin: 35px 0 20px;
+    color: #b4b180;
+    font-family: 'CeraRoundProDEMO-Light'; }
+    .gifts h4 span {
+      color: #ffffdc;
+      font-size: 36px;
+      display: block;
+      margin: 15px 0; }
+  .gifts .wrapBord {
+    border: 1px solid #65758c;
+    padding: 15px; }
+    .gifts .wrapBord .row2 {
+      margin-top: 30px; }
+    .gifts .wrapBord .wrapBack {
+      background-color: rgba(0, 0, 0, 0.9);
+      padding: 45px 0; }
+      .gifts .wrapBord .wrapBack .place13 {
+        font-family: 'Forum-Regular'; }
+        .gifts .wrapBord .wrapBack .place13__place {
+          font-size: 36px;
+          color: #ffffdc;
+          margin-bottom: 0; }
+        .gifts .wrapBord .wrapBack .place13__summ {
+          color: #a24034;
+          font-size: 24px;
+          margin-top: -10px; }
+          .gifts .wrapBord .wrapBack .place13__summ img {
+            margin-top: -3px;
+            margin-left: 3px; }
+        .gifts .wrapBord .wrapBack .place13 .imgOb {
+          height: 226px; }
+      .gifts .wrapBord .wrapBack .place46 {
+        font-family: 'Forum-Regular'; }
+        .gifts .wrapBord .wrapBack .place46__place {
+          font-size: 26px;
+          color: #ffffdc;
+          margin-bottom: 0; }
+        .gifts .wrapBord .wrapBack .place46__summ {
+          color: #a24034;
+          font-size: 18px;
+          margin-top: -5px; }
+          .gifts .wrapBord .wrapBack .place46__summ img {
+            margin-top: -3px;
+            margin-left: 2px;
+            width: 4%; }
+
+.conditions {
+  padding: 40px 0 90px; }
+  .conditions .telega {
+    width: 411px; }
+  .conditions p.note {
+    color: #b4b180;
+    font-size: 16px;
+    font-family: 'CeraRoundProDEMO-Light';
+    margin-top: 30px; }
+  .conditions .wrap {
+    margin-top: 50px;
+    padding-bottom: 45px;
+    background-color: #020203; }
+    .conditions .wrap h2 {
+      color: #ffffdc;
+      font-family: 'CeraRoundProDEMO-Regular'; }
+    .conditions .wrap .imgWrap {
+      padding: 15px;
+      border: 1px solid #65758c; }
+      .conditions .wrap .imgWrap img {
+        width: 100%; }
+    .conditions .wrap .item {
+      color: #b4b180;
+      font-size: 16px;
+      font-family: 'CeraRoundProDEMO-Light';
+      width: 80%;
+      margin-left: 10px; }
+      .conditions .wrap .item a {
+        color: #c54c3c;
+        text-decoration: underline; }
+    .conditions .wrap .number {
+      font-size: 40px;
+      height: 43px;
+      width: 43px;
+      border-radius: 50%;
+      text-align: center;
+      font-family: 'Forum-Regular';
+      color: #ffffdc;
+      border: 1px solid #ffffdc;
+      line-height: 1.1;
+      margin-left: 15px; }
+    .conditions .wrap .number, .conditions .wrap .item {
+      display: inline-block;
+      vertical-align: top; }
+      .conditions .wrap .number.mid, .conditions .wrap .item.mid {
+        vertical-align: middle; }
+    .conditions .wrap .separator {
+      height: 20px; }
+
+.sponsors, .infPart {
+  padding: 50px 0 90px;
+  background-image: url(../img/bgSponsors.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover; }
+  .sponsors .gena, .infPart .gena {
+    background-image: url(../img/bgGeneral.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    padding: 27px 0;
+    width: 811px;
+    margin: auto;
+    margin-top: 50px; }
+    .sponsors .gena .bro, .infPart .gena .bro {
+      width: 280px;
+      margin-left: 80px; }
+      .sponsors .gena .bro .wrapper, .infPart .gena .bro .wrapper {
+        width: 180px;
+        margin: auto;
+        border: 1px solid #fff;
+        padding: 10px; }
+        .sponsors .gena .bro .wrapper .rr, .infPart .gena .bro .wrapper .rr {
+          height: 100px;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-pack: center;
+              -ms-flex-pack: center;
+                  justify-content: center;
+          -webkit-box-align: center;
+              -ms-flex-align: center;
+                  align-items: center;
+          background-color: #fff; }
+      .sponsors .gena .bro p, .infPart .gena .bro p {
+        font-size: 24px;
+        color: #fff;
+        margin-bottom: 0;
+        margin-top: 10px; }
+  .sponsors li, .infPart li {
+    border: 1px solid #65758c;
+    padding: 10px; }
+  .sponsors .sld, .infPart .sld {
+    margin-top: 60px; }
+  .sponsors .wrap, .infPart .wrap {
+    height: 100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: #fff; }
+  .sponsors .btn, .infPart .btn {
+    width: 300px;
+    padding-left: 0;
+    padding-right: 0;
+    background-size: 104% 51px;
+    height: 46px;
+    margin-top: 40px; }
+
+.infPart {
+  background-image: none;
+  background-color: #0b0d13; }
+  .infPart .telega {
+    width: 330px; }
+
+.formBl {
+  padding: 50px 0 90px;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover; }
+  .formBl.form1 {
+    background-image: url(../img/bgForm1.jpg); }
+  .formBl.form2 {
+    background-image: url(../img/bgForm2.jpg); }
+  .formBl ::-webkit-input-placeholder {
+    color: #b4b180 !important;
+    font-family: 'CeraRoundProDEMO-Light', sans-serif !important; }
+  .formBl ::-moz-placeholder {
+    color: #b4b180 !important;
+    font-family: 'CeraRoundProDEMO-Light', sans-serif !important; }
+  .formBl :-moz-placeholder {
+    color: #b4b180 !important;
+    font-family: 'CeraRoundProDEMO-Light', sans-serif !important; }
+  .formBl :-ms-input-placeholder {
+    color: #b4b180 !important;
+    font-family: 'CeraRoundProDEMO-Light', sans-serif !important; }
+  .formBl .telega {
+    width: 430px; }
+  .formBl h4.subHeading {
+    font-size: 17px;
+    color: #b4b180;
+    font-family: 'CeraRoundProDEMO-Light'; }
+  .formBl form {
+    width: 380px;
+    margin: auto; }
+    .formBl form input, .formBl form textarea {
+      background-color: rgba(2, 2, 3, 0.93);
+      border-color: #65758c;
+      margin-top: 25px;
+      border-radius: 1px !important;
+      color: #b4b180; }
+    .formBl form textarea {
+      max-width: 100%;
+      height: 150px;
+      max-height: 150px; }
+    .formBl form button.btn {
+      width: 100%;
+      padding-left: 0;
+      padding-right: 0;
+      background-size: 104% 51px;
+      height: 46px;
+      margin-top: 25px; }
+  .formBl .labelText {
+    font-size: 14px;
+    color: #b4b180;
+    text-align: center;
+    margin-top: 10px; }
+    .formBl .labelText a {
+      color: #c54c3c; }
+  .formBl input[type='checkbox'] + label {
+    color: #b4b180;
+    font-size: 12px;
+    position: relative;
+    top: -2px; }
+    .formBl input[type='checkbox'] + label a {
+      color: #c54c3c; }
+
+.rules {
+  padding: 50px 0 90px; }
+  .rules .telega {
+    width: 411px; }
+  .rules .hideOnclick, .rules .showOnClick {
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out; }
+  .rules .showOnClick {
+    display: none; }
+  .rules .text {
+    font-family: 'CeraRoundProDEMO-Light';
+    font-size: 16px;
+    color: #b4b180;
+    line-height: 2; }
+    .rules .text p {
+      color: #ffffdc; }
+    .rules .text p:not(.first) {
+      margin: 10px 0; }
+  .rules button.btn {
+    width: 249px;
+    height: 48px;
+    margin: auto;
+    display: block;
+    margin-top: 15px; }
+
+.discipline {
+  background-image: url(../img/bgDisciplina.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  padding: 50px 0 90px; }
+  .discipline .telega {
+    width: 330px; }
+  .discipline .wrap {
+    margin-top: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start; }
+    .discipline .wrap__item {
+      width: 18%; }
+      .discipline .wrap__item p {
+        font-size: 18px;
+        color: #b4b180;
+        font-family: 'CeraRoundProDEMO-Light'; }
+
+.tables {
+  background-color: #121313;
+  padding-bottom: 90px;
+  /*.matchWrap {
+  	display: flex;
+  	justify-content: space-around;
+  	align-items: center;
+  	.match {
+  		width: 20%;
+  		.team {
+  			font-size: 18px;
+  			font-family: 'CeraRoundProDEMO-Regular';
+  			border: 1px solid #41424a;
+  			padding-left: 10px;
+  			.nameTeam {
+  				color: $headingColor;
+  				width: 61%;
+  			}
+  			.pointTeam, .nameTeam, .logoTeam {
+  				display: inline-block;
+  				vertical-align: middle;
+  			}
+  			.pointTeam, .nameTeam {
+  				padding: 10px 0;
+  			}
+  			.pointTeam {
+  				padding-left: 8px;
+  				padding-right: 8px;
+  			}
+  			&.team1 {
+  				background-color: #181c26;	
+  				.pointTeam {
+  					color: $headingColor;
+  					border-left: 1px solid #41424a;
+  				}
+  			}
+  			&.team2 {
+  				background-color: #1a1b1f;
+  				border-top: none;
+  				.pointTeam {
+  					color: #e05346;
+  					border-left: 1px solid #41424a;
+  				}
+  			}
+  		}
+  	}
+  }*/ }
+  .tables .panel-heading span {
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out; }
+  .tables .panel-heading span.opened {
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg); }
+  .tables .firstPart .tablePart {
+    padding-top: 50px;
+    background-image: url(../img/bgTables.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover; }
+  .tables .secondPart .t:not(.thirdTable) table thead th:nth-child(2), .tables .thirdPart .t:not(.thirdTable) table thead th:nth-child(2), .tables .fourthAndFifthPart .t:not(.thirdTable) table thead th:nth-child(2) {
+    width: 50%;
+    padding-left: 100px; }
+  .tables .secondPart .t:not(.thirdTable) .matchesAccord .panel .panel-heading span, .tables .thirdPart .t:not(.thirdTable) .matchesAccord .panel .panel-heading span, .tables .fourthAndFifthPart .t:not(.thirdTable) .matchesAccord .panel .panel-heading span {
+    left: 85.5%; }
+  .tables .secondPart .t:not(.thirdTable) .panel-body td, .tables .thirdPart .t:not(.thirdTable) .panel-body td, .tables .fourthAndFifthPart .t:not(.thirdTable) .panel-body td {
+    font-size: 14px; }
+    .tables .secondPart .t:not(.thirdTable) .panel-body td span.win, .tables .secondPart .t:not(.thirdTable) .panel-body td span.lost, .tables .thirdPart .t:not(.thirdTable) .panel-body td span.win, .tables .thirdPart .t:not(.thirdTable) .panel-body td span.lost, .tables .fourthAndFifthPart .t:not(.thirdTable) .panel-body td span.win, .tables .fourthAndFifthPart .t:not(.thirdTable) .panel-body td span.lost {
+      margin: 0 !important; }
+  .tables .secondPart .t:not(.thirdTable) .matchesAccord .panel .panel-body td:nth-child(3), .tables .thirdPart .t:not(.thirdTable) .matchesAccord .panel .panel-body td:nth-child(3), .tables .fourthAndFifthPart .t:not(.thirdTable) .matchesAccord .panel .panel-body td:nth-child(3) {
+    width: 40px; }
+  .tables .secondPart .t:not(.thirdTable) table tbody tr td:nth-child(2), .tables .thirdPart .t:not(.thirdTable) table tbody tr td:nth-child(2), .tables .fourthAndFifthPart .t:not(.thirdTable) table tbody tr td:nth-child(2) {
+    padding-left: 40px; }
+  .tables .matchesAccord {
+    color: #ffffdc; }
+    .tables .matchesAccord .panel {
+      background-color: #08090f;
+      border-top: none;
+      border-radius: 0;
+      border-color: #41424a; }
+      .tables .matchesAccord .panel .panel-heading {
+        border-color: #41424a;
+        background-color: #181c26;
+        color: #ffffdc;
+        border-radius: 0; }
+        .tables .matchesAccord .panel .panel-heading a {
+          margin-left: 0px;
+          text-decoration: none; }
+        .tables .matchesAccord .panel .panel-heading span {
+          top: 3px;
+          left: 90.5%; }
+      .tables .matchesAccord .panel .panel-body {
+        padding: 0;
+        border-color: #41424a; }
+        .tables .matchesAccord .panel .panel-body tbody {
+          background-color: transparent;
+          border: none; }
+        .tables .matchesAccord .panel .panel-body span.win {
+          color: #e05346; }
+        .tables .matchesAccord .panel .panel-body td {
+          font-size: 16px; }
+          .tables .matchesAccord .panel .panel-body td span.win, .tables .matchesAccord .panel .panel-body td span.lost {
+            margin: 0 20px; }
+          .tables .matchesAccord .panel .panel-body td:nth-child(3) {
+            width: 100px; }
+          .tables .matchesAccord .panel .panel-body td:nth-child(2) {
+            text-align: right;
+            padding-left: 0; }
+          .tables .matchesAccord .panel .panel-body td:nth-child(1) {
+            width: 150px; }
+          .tables .matchesAccord .panel .panel-body td:nth-child(4) {
+            text-align: left; }
+          .tables .matchesAccord .panel .panel-body td:nth-child(4) img, .tables .matchesAccord .panel .panel-body td:nth-child(2) img {
+            margin: 0 10px; }
+  .tables h2, .tables h3.tHeading {
+    font-family: 'CeraRoundProDEMO-Regular';
+    color: #ffffdc;
+    text-align: center; }
+  .tables h3.tHeading {
+    margin-bottom: 25px; }
+  .tables table {
+    width: 100%;
+    margin: auto; }
+    .tables table thead {
+      border: 1px solid #41424a;
+      background-color: #090a10;
+      text-align: center; }
+      .tables table thead th {
+        text-align: center;
+        font-size: 16px;
+        color: #b4b180;
+        font-family: 'CeraRoundProDEMO-Light';
+        padding: 5px 0; }
+        .tables table thead th:nth-child(2) {
+          text-align: left;
+          padding-left: 130px;
+          width: 70%; }
+    .tables table tbody {
+      border: 1px solid #41424a;
+      border-top: none;
+      background-color: #181c26; }
+      .tables table tbody tr td {
+        font-size: 18px;
+        color: #ffffdc;
+        font-family: 'CeraRoundProDEMO-Regular';
+        padding: 2px 0; }
+        .tables table tbody tr td img {
+          margin-right: 10px; }
+        .tables table tbody tr td:nth-child(1) {
+          padding-left: 2px;
+          padding-right: 2px; }
+        .tables table tbody tr td:nth-child(2) {
+          padding-left: 70px; }
+        .tables table tbody tr td:nth-child(3), .tables table tbody tr td:nth-child(4), .tables table tbody tr td:nth-child(5), .tables table tbody tr td:nth-child(6) {
+          text-align: center; }
+        .tables table tbody tr td:nth-child(1) {
+          padding: 0px 15px;
+          width: 44px; }
+      .tables table tbody tr:nth-child(1) td {
+        padding-top: 10px; }
+      .tables table tbody tr:nth-last-child(1) td {
+        padding-bottom: 10px; }
+  .tables h2.pereigr {
+    margin: 40px 0; }
+
+.tournamentNet {
+  padding: 50px 0 0; }
+  .tournamentNet h4.subHeading {
+    color: #b4b180;
+    font-family: 'CeraRoundProDEMO-Light'; }
+  .tournamentNet .net.smal {
+    width: 820px;
+    margin: auto;
+    margin-top: -70px; }
+    .tournamentNet .net.smal h4.roundHead {
+      font-family: 'CeraRoundProDEMO-Light';
+      color: #b4b180;
+      text-align: center;
+      position: absolute;
+      top: 15px; }
+    .tournamentNet .net.smal .round1 h4 {
+      margin-left: 45px; }
+    .tournamentNet .net.smal .round2 h4 {
+      margin-left: 65px; }
+    .tournamentNet .net.smal .round3 h4 {
+      margin-left: 85px; }
+  .tournamentNet .net {
+    margin-top: -140px; }
+    .tournamentNet .net .round, .tournamentNet .net .connectors {
+      display: inline-block;
+      vertical-align: middle; }
+    .tournamentNet .net .round {
+      width: 220px; }
+      .tournamentNet .net .round .match {
+        width: 220px;
+        margin: 14px 0; }
+        .tournamentNet .net .round .match .team {
+          font-size: 14px;
+          font-family: 'CeraRoundProDEMO-Regular';
+          border: 1px solid #41424a;
+          padding-left: 10px; }
+          .tournamentNet .net .round .match .team .nameTeam {
+            color: #ffffdc;
+            width: 127px; }
+          .tournamentNet .net .round .match .team .pointTeam, .tournamentNet .net .round .match .team .nameTeam, .tournamentNet .net .round .match .team .logoTeam {
+            display: inline-block;
+            vertical-align: middle; }
+          .tournamentNet .net .round .match .team .pointTeam, .tournamentNet .net .round .match .team .nameTeam {
+            padding: 10px 0; }
+          .tournamentNet .net .round .match .team .pointTeam {
+            padding-left: 8px;
+            padding-right: 8px; }
+          .tournamentNet .net .round .match .team.team1 {
+            background-color: #181c26; }
+            .tournamentNet .net .round .match .team.team1 .pointTeam {
+              color: #ffffdc;
+              border-left: 1px solid #41424a; }
+          .tournamentNet .net .round .match .team.team2 {
+            background-color: #1a1b1f;
+            border-top: none; }
+            .tournamentNet .net .round .match .team.team2 .pointTeam {
+              color: #e05346;
+              border-left: 1px solid #41424a; }
+      .tournamentNet .net .round.round2 {
+        margin-left: -4px; }
+        .tournamentNet .net .round.round2 .match {
+          margin: 111px 0; }
+      .tournamentNet .net .round.round3 {
+        margin-left: -4px; }
+        .tournamentNet .net .round.round3 .match {
+          margin: 305px 0; }
+      .tournamentNet .net .round.round4 {
+        margin-left: -4px; }
+    .tournamentNet .net .connectors .con .twoMatches, .tournamentNet .net .connectors .con .line {
+      width: 40px;
+      display: inline-block;
+      vertical-align: middle; }
+    .tournamentNet .net .connectors .con .twoMatches {
+      border: 1px solid #41424a;
+      border-left: none; }
+    .tournamentNet .net .connectors .con .line {
+      border-top: 1px solid #41424a;
+      margin-left: -4px; }
+    .tournamentNet .net .connectors.connectors1-2 {
+      margin-left: -4px; }
+      .tournamentNet .net .connectors.connectors1-2 .con .twoMatches {
+        height: 98px;
+        margin: 48px 0; }
+    .tournamentNet .net .connectors.connectors2-3 {
+      margin-left: -4px; }
+      .tournamentNet .net .connectors.connectors2-3 .con .twoMatches {
+        height: 195px;
+        margin: 96px 0; }
+      .tournamentNet .net .connectors.connectors2-3 .con.con2 .twoMatches {
+        margin-top: 97px; }
+    .tournamentNet .net .connectors.connectors3-4 {
+      margin-left: -4px; }
+      .tournamentNet .net .connectors.connectors3-4 .con .twoMatches {
+        height: 389px; }
+
+.footer {
+  border-top: 1px solid #41424a;
+  background-color: #0b0d13;
+  padding: 30px 0; }
+  .footer p {
+    color: #464953;
+    margin: 0; }
+
+@media (max-width: 1199px) {
+  #menu #_menu ul li {
+    margin: 0 34px; }
+
+  .telega {
+    width: 230px !important; }
+
+  .gifts .wrapBord .wrapBack .place13:nth-child(1) .imgOb img {
+    margin-left: -10px; }
+
+  .discipline .wrap__item img {
+    width: 100%; }
+
+  .tables .matchWrap {
+    display: block;
+    text-align: center; }
+    .tables .matchWrap .match {
+      width: 240px;
+      display: inline-block;
+      margin: 10px 5px; }
+      .tables .matchWrap .match .team {
+        text-align: left; }
+
+  .tournamentNet .net .connectors .con .line {
+    width: 20px; }
+
+  .tournamentNet .net .connectors.connectors3-4 {
+    margin-left: -145px;
+    position: relative;
+    z-index: -1; }
+
+  .tables .secondPart .t:not(.thirdTable) .matchesAccord .panel .panel-heading span, .tables .thirdPart .t:not(.thirdTable) .matchesAccord .panel .panel-heading span, .tables .fourthAndFifthPart .t:not(.thirdTable) .matchesAccord .panel .panel-heading span {
+    left: 86%; }
+
+  #menu #_menu {
+    margin-top: -10px;
+    padding-top: 0; }
+
+  .tables .matchesAccord .panel .panel-body td:nth-child(2) {
+    padding-left: 0 !important; }
+
+  .sponsors .gena, .infPart .gena {
+    width: 100%; }
+
+  .sponsors .wrap img.rty, .infPart .wrap img.rty {
+    height: 100%; } }
+@media (max-width: 991px) {
+  .tables .matchesAccord .panel .panel-body td:nth-child(3) {
+    width: 40px; }
+
+  .tables .matchesAccord .panel .panel-body td span.win, .tables .matchesAccord .panel .panel-body td span.lost {
+    margin: 0 0px; }
+
+  .tables table thead th:nth-child(2) {
+    padding-left: 100px;
+    width: 50%; }
+
+  .tables table tbody tr td:nth-child(2) {
+    padding-left: 40px; }
+
+  .tables .matchesAccord .panel .panel-heading span {
+    left: 86%; }
+
+  .tables .matchesAccord .panel .panel-body td {
+    font-size: 13px; }
+
+  .tournamentNet .scrollSMandXS {
+    overflow-x: scroll; }
+    .tournamentNet .scrollSMandXS .net {
+      width: 990px; }
+    .tournamentNet .scrollSMandXS .net.smal {
+      width: 800px; }
+
+  #menu #_menu ul li a {
+    font-size: 12px; }
+
+  #menu #_menu ul li {
+    margin: 0 25px; }
+
+  #menu #_menu ul li.logo img {
+    margin-left: -7px; }
+
+  .mainScr h1 {
+    font-size: 34px; }
+
+  .mainScr .info .text p {
+    font-size: 14px; }
+
+  .btn {
+    font-size: 12px !important; }
+
+  .mainScr button.btn {
+    width: 185px;
+    height: 35px; }
+
+  h1.heading {
+    font-size: 26px; }
+
+  .telega {
+    width: 200px !important; }
+
+  .gifts .wrapBord .wrapBack .place13__img {
+    width: 80%;
+    margin: 0; }
+
+  .gifts .wrapBord .wrapBack .place13 .imgOb {
+    height: 180px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+
+  .gifts h4 {
+    font-size: 13px; }
+
+  .gifts .wrapBord .wrapBack .place13__place {
+    font-size: 24px; }
+
+  .gifts .wrapBord .wrapBack .place13__summ {
+    font-size: 16px; }
+
+  .gifts .wrapBord .wrapBack .place46__place {
+    font-size: 18px; }
+
+  .gifts .wrapBord .wrapBack .place46__summ {
+    font-size: 13px; }
+
+  .gifts .wrapBord .wrapBack {
+    padding: 25px 0; }
+
+  .gifts .wrapBord .wrapBack .place13__summ img {
+    width: 3.5%; }
+
+  .conditions .wrap h2 {
+    font-size: 22px; }
+
+  .conditions .wrap .item {
+    font-size: 13px;
+    width: 75%; }
+
+  .sponsors .wrap, .infPart .wrap {
+    height: 70px; }
+
+  .formBl h4.subHeading {
+    font-size: 13px; }
+
+  .formBl form {
+    width: 250px; }
+
+  .formBl form input, .formBl form textarea {
+    margin-top: 10px;
+    font-size: 13px !important; }
+
+  .formBl form input {
+    height: 35px !important; }
+  .formBl form textarea {
+    max-height: 100px; }
+
+  .formBl form button.btn {
+    margin-top: 10px; }
+
+  .rules .text {
+    font-size: 13px; }
+
+  .discipline .wrap__item p {
+    font-size: 13px; }
+
+  .tables h2 {
+    font-size: 22px; }
+
+  .tables h3.tHeading {
+    font-size: 18px; }
+
+  .tables table thead th {
+    font-size: 12px; }
+
+  .tables table tbody tr td {
+    font-size: 13px; }
+
+  .tables .matchWrap .match .team {
+    font-size: 13px; }
+
+  .tables .matchWrap .match .team .nameTeam {
+    width: 65%; }
+
+  .tournamentNet h4.subHeading {
+    font-size: 13px; }
+
+  .gifts .wrapBord .wrapBack .place13:nth-child(1) .imgOb img {
+    margin: 0; }
+
+  .tables .secondPart .t:not(.thirdTable) .panel-body td, .tables .thirdPart .t:not(.thirdTable) .panel-body td, .tables .fourthAndFifthPart .t:not(.thirdTable) .panel-body td {
+    font-size: 12px; } }
+@media (max-width: 767px) {
+  .tables .firstPart .tablePart {
+    background-image: none; }
+
+  .modal.modalBecomeASponsor input, .modal.modalBecomeASponsor textarea, .modal.modalBecomeASponsor button.btn {
+    margin-left: auto !important;
+    margin-right: auto !important; }
+  .modal.modalBecomeASponsor form {
+    width: 90%; }
+
+  .sponsors .gena .bro, .infPart .gena .bro {
+    width: 280px;
+    margin: auto; }
+
+  .tables .fixOnXS {
+    overflow-x: scroll; }
+    .tables .fixOnXS table, .tables .fixOnXS .panel-default {
+      width: 620px; }
+
+  .mainScr .logo {
+    margin: auto; }
+
+  .mainScr h1 {
+    font-size: 28px; }
+
+  .mainScr .info {
+    padding: 10px; }
+    .mainScr .info .text p {
+      padding: 10px 0; }
+
+  .mainScr button.btn {
+    margin: 15px 0; }
+
+  .mainScr .videoBl {
+    padding: 10px; }
+    .mainScr .videoBl .plyr__video-embed {
+      padding-bottom: 90.25%; }
+
+  img.telega {
+    display: none; }
+
+  .gifts, .conditions, .sponsors, .formBl, .rules, .discipline, .tables, .tournamentNet {
+    padding: 30px 0 50px; }
+
+  .gifts, .sponsors, .discipline, .tables {
+    background-image: none;
+    background-color: #030304; }
+
+  .gifts .wrapBord {
+    border: none;
+    padding: 0; }
+
+  .gifts .wrapBord .wrapBack {
+    padding: 0; }
+
+  .gifts .wrapBord .wrapBack .place13__img {
+    width: 50%; }
+
+  .gifts .wrapBord .wrapBack .place46__img {
+    width: 80%; }
+
+  .conditions .wrap {
+    margin-top: 20px; }
+
+  .conditions .wrap .number {
+    font-size: 28px;
+    height: 33px;
+    width: 33px; }
+
+  .rules .text {
+    padding-left: 30px;
+    padding-right: 30px; }
+
+  .discipline .wrap {
+    display: block; }
+    .discipline .wrap__item {
+      display: inline-block;
+      vertical-align: top;
+      width: 35%;
+      margin: 0 15px; }
+
+  .tables .matchWrap .match {
+    width: 200px; }
+    .tables .matchWrap .match .team .nameTeam {
+      width: 57%; }
+
+  .formBl.form2 {
+    margin-top: -200px; }
+
+  .footer {
+    padding: 10px 0; }
+
+  .tables .matchesAccord .panel .panel-body td {
+    font-size: 10px !important; } }

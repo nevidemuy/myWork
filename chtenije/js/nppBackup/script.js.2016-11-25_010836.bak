@@ -1,0 +1,64 @@
+var name = '';
+			$('#but1').click(function() {
+				if($('#name').val() == '') {
+					alert('¬ведите им€');
+					return false;
+				}
+				else name = $('#name').val();
+				$('#scr2 h1').html(name + ',<br>давайте начнЄм');
+				$('#scr2').css({
+					display: 'block'
+				});
+				event.preventDefault();
+				var id  = '#scr2',
+				top = $(id).offset().top - 1000;
+				$('body,html').animate({scrollTop: top}, 1500);
+				$('#scr1').css({
+					display: 'none'
+				});
+			});
+			$('#but2').click(function() {
+				
+				$('.tekst').css({
+					display: 'block'
+				});
+				event.preventDefault();
+				var id  = '.tekst',
+				top = $(id).offset().top - 1000;
+				$('body,html').animate({scrollTop: top}, 1500);
+				$('.osel').css({
+					display: 'none'
+				});
+				$('#scr2').css({
+					paddingTop: 0
+				});
+			});
+			
+			$('#but2_1').click(function() {
+				$('#scr3 h1').html(name + ',<br>шикарно!');
+				$('#scr3').css({
+					display: 'block'
+				});
+				event.preventDefault();
+				var id  = '#scr3',
+				top = $(id).offset().top - 1000;
+				$('body,html').animate({scrollTop: top}, 1500);
+				$('#scr2').css({
+					display: 'none'
+				});
+			});
+			
+			$('#but3').click(function() {
+				$('#scr4 h1').html(name + ',<br>ваши результаты<br>готовы');
+				$('#scr4 .rotor').attr("value", name);
+				$('#scr4').css({
+					display: 'block'
+				});
+				event.preventDefault();
+				var id  = '#scr4',
+				top = $(id).offset().top - 1000;
+				$('body,html').animate({scrollTop: top}, 1500);
+				$('#scr3').css({
+					display: 'none'
+				});
+			});

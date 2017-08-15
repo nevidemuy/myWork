@@ -1,0 +1,132 @@
+.upper {
+  text-transform: uppercase; }
+
+h1 {
+  color: #1d93d1 !important;
+  font-family: "GothamProBlack" !important; }
+
+h2 {
+  color: #ee7236 !important;
+  font-family: "GothamProBold" !important; }
+
+button {
+  color: #fff !important;
+  background-color: #1d93d1 !important;
+  border-radius: 5px !important; }
+
+input[type=text], button {
+  font-family: 'Open Sans', sans-serif !important;
+  height: 46px !important;
+  font-weight: 600 !important;
+  font-size: 20px !important; }
+
+#scr1 {
+  padding-top: 115px;
+  padding-bottom: 75px; }
+  #scr1 h1 {
+    font-size: 78px;
+    margin-top: 0;
+    margin-bottom: 50px; }
+  #scr1 h2 {
+    margin-top: 50px;
+    margin-bottom: 70px; }
+  #scr1 input, #scr1 button {
+    display: inline; }
+  #scr1 input {
+    width: 315px; }
+  #scr1 button {
+    width: 210px;
+    margin-top: -7px;
+    margin-left: 15px; }
+
+#scr2 {
+  display: none;
+  padding-top: 135px;
+  padding-bottom: 70px; }
+  #scr2 h1 {
+    font-size: 67px; }
+  #scr2 h2 {
+    font-size: 22px;
+    margin-top: 60px;
+    margin-bottom: 60px; }
+  #scr2 button {
+    width: 180px;
+    margin: auto; }
+  #scr2 .tekst {
+    display: none;
+    margin-top: 55px; }
+    #scr2 .tekst h3 {
+      font-family: "GothamProBold";
+      font-size: 18px;
+      margin-bottom: 20px; }
+    #scr2 .tekst article {
+      padding-bottom: 50px; }
+      #scr2 .tekst article p {
+        font-family: "GothamProRegular";
+        text-indent: 45px; }
+      #scr2 .tekst article p.ret {
+        font-family: "GothamProItalic";
+        margin-top: 20px;
+        text-indent: 0; }
+
+#scr3 {
+  display: none;
+  padding-top: 135px;
+  padding-bottom: 55px; }
+  #scr3 h1 {
+    font-size: 60px; }
+  #scr3 h2 {
+    font-size: 22px;
+    margin-top: 45px;
+    margin-bottom: 65px; }
+  #scr3 .tests p {
+    font-size: 20px;
+    font-family: "GothamProBold"; }
+  #scr3 .tests label {
+    font-size: 16px;
+    font-family: "GothamProRegular";
+    font-weight: 400;
+    margin-left: 8px;
+    width: 70%;
+    vertical-align: top; }
+  #scr3 button {
+    width: 175px;
+    margin-top: 55px; }
+
+#scr4 {
+  display: none;
+  padding-top: 135px;
+  padding-bottom: 130px; }
+  #scr4 h1 {
+    font-size: 67px;
+    margin-top: 0;
+    margin-bottom: 65px; }
+  #scr4 h2 {
+    font-family: "GothamProMedium";
+    font-size: 22px; }
+    #scr4 h2 span {
+      font-family: "GothamProBlack"; }
+  #scr4 p {
+    font-family: "GothamProRegular";
+    font-size: 16px;
+    margin-top: 80px; }
+  #scr4 h4 {
+    color: #1d93d1;
+    font-family: "GothamProBold";
+    font-size: 22px;
+    margin-top: 90px; }
+  #scr4 p.none {
+    margin-top: 0; }
+  #scr4 form {
+    margin-top: 35px; }
+  #scr4 input, #scr4 button {
+    width: 220px;
+    display: inline;
+    margin-right: 25px; }
+  #scr4 button {
+    margin-top: -5px; }
+
+.pluso-more {
+  display: none !important; }
+
+/*# sourceMappingURL=main.css.map */

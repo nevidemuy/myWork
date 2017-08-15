@@ -1,0 +1,31 @@
+body {
+  margin: 0; }
+
+.keys {
+  height: 100vh;
+  background-image: url(../img/city.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  color: #fff; }
+  .keys .key {
+    text-align: center;
+    padding: 15px 0;
+    width: 80px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 2px solid grey;
+    transition: all 0.1s;
+    font-size: 24px; }
+    .keys .key span {
+      display: block;
+      color: darkorange;
+      font-size: 16px; }
+    .keys .key.playing {
+      border-color: orange;
+      box-shadow: 0px 0px 10px orange;
+      transform: scale(1.1); }
+
+/*# sourceMappingURL=main.css.map */

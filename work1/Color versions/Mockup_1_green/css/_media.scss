@@ -1,0 +1,631 @@
+@import 'colors';
+@media (max-width: 1199px) {
+	.btn {
+		height: 45px!important;
+		font-size: 13px!important;
+	}
+	.mainScr .header .menu ul.nav li a {
+		padding: 10px 7px 0;
+	}
+	.mainScr .header button {
+		width: 170px;
+		margin-left: -40px;
+	}
+	.mainScr, .offerCopy {
+		.mainPart { // mainPart starts //
+			h1 {
+				font-family: 'ptSansBold';
+				font-size: 70px;
+			}
+			h4 {
+				font-size: 18px;
+			}
+			p.price {
+				font-size: 32px;
+			}
+			.list {
+				p {
+					font-size: 16px;
+				}
+				&.cent {
+					margin: 0 25px;
+				}
+			}
+			button {
+				width: 250px;
+			}
+			p.today {
+				font-size: 14px;
+			}
+		} // mainPart ends //
+
+		.offers { // offers starts //
+			h1 {
+				font-size: 32px;
+			}
+			h2 {
+				font-size: 14px;
+			} 
+			.obert {
+				width: 950px;
+				.offer {
+					width: 300px;
+					&.formBl {
+						background-color: $formBlBg;
+						h1 {
+							font-size: 32px;
+						}
+						h2 {
+							font-size: 14px;
+						}
+						input, select {
+							height: 35px;
+						}
+					}
+					&.attention {
+						h2 {
+							font-size: 14px;
+						}
+					}
+					&.sale {
+						background-color: $secondColor;
+						h1 {
+							font-size: 32px;
+						}
+						h2, .podpis {
+							font-size: 14px;
+						}
+						.timer_wrap {
+							text-align: center;
+							.cont {
+								display: inline-block;
+								vertical-align: middle;
+								p {
+									width: 37px;
+									height: 50px;
+									font-size: 32px;
+									padding-top: 2px;
+									margin-bottom: 3px;
+								}
+								p + p {
+									margin-left: 3px;
+								}
+								&.cent {
+									margin: 0 10px;
+								}
+							}
+							.podpis {
+								font-size: 14px;
+								letter-spacing: 1px;
+								&.cent {
+									margin: 0 35px 0 40px;
+								}
+								&.hours {
+									margin-left: 10px;
+								}
+							}
+						}
+					}
+				}
+			}
+		} // offers ends //
+	}
+	.about {
+		img {
+			width: 100%;
+		}
+	}
+	.about p {
+		margin-bottom: 20px;
+	}
+	.feedback {
+		.art1, .art2 {
+			background-image: none;
+		}
+		article {
+			z-index: 1;
+			position: relative;
+			.text p + p {
+				margin-top: 20px;
+			}
+		}
+		.art1 {
+			img {
+				margin-top: -540px;
+				margin-left: -280px;
+			}
+		}
+		.art2 {
+			img {
+				margin-top: -410px;
+    			margin-left: 690px;
+			}
+		}
+	}
+	.dostavka .blocks {
+		width: 150px;
+		img {
+			width: 100%;
+		}
+		p {
+			font-size: 16px;
+		}
+	}
+	.dostavka .blocks:nth-child(odd) {
+		margin: 0 43px;
+	}
+}
+@media (max-width: 991px) {
+	.modal.myModal .modal-dialog {
+		width: 670px !important;
+		.sale {
+			width: 80px!important;
+			height: 80px!important;
+			top: 240px!important;
+    		right: 105px!important;
+			padding-top: 25px!important;
+		}
+	}
+	.header {
+		.logo {
+			width: 190px;
+		}
+		li a {
+			font-size: 10px;
+		}
+		button {
+			width: 125px!important;
+			margin-left: -30px!important;
+			margin-top: 5px;
+		}
+	}
+	.mainScr .header .menu ul.nav li a {
+		padding: 5px 7px 0;
+	}
+	.btn {
+		font-size: 10px!important;
+		height: 35px!important;
+	}
+	.mainScr .header .logo, .mainScr .header .menu {
+		margin-top: 10px;
+	}
+	.mainScr .mainPart h1, .offerCopy .mainPart h1 {
+		font-family: 'ptSansBold';
+		font-size: 52px;
+		letter-spacing: 10px;
+	}
+	.mainScr .mainPart h4, .offerCopy .mainPart h4 {
+		font-size: 14px;
+		letter-spacing: 2px;
+		margin-top: 10px;
+	}
+	.mainScr .mainPart .list.cent, .offerCopy .mainPart .list.cent {
+		margin: 0 15px;
+	}
+	.mainScr .mainPart button, .offerCopy .mainPart button {
+		width: 200px;
+	}
+	.mainScr .mainPart p.today, .offerCopy .mainPart p.today {
+		font-size: 12px;
+	}
+	.mainScr .offers .obert .offer, .offerCopy .offers .obert .offer {
+		width: 230px;
+	}
+	.mainScr .offers .obert .offer.formBl h1, .offerCopy .offers .obert .offer.formBl h1 {
+		font-size: 24px;
+	}
+	.mainScr .offers h1, .offerCopy .offers h1 {
+		font-size: 24px;
+	}
+	.mainScr .offers .obert .offer.sale h1, .offerCopy .offers .obert .offer.sale h1 {
+		font-size: 24px;
+	}
+	.mainScr .offers .obert .offer.formBl h2, .offerCopy .offers .obert .offer.formBl h2, .mainScr .offers .obert .offer.attention h2, .offerCopy .offers .obert .offer.attention h2, .mainScr .offers .obert .offer.sale h2, .mainScr .offers .obert .offer.sale .podpis, .offerCopy .offers .obert .offer.sale h2, .offerCopy .offers .obert .offer.sale .podpis {
+		font-size: 11px;
+	}
+	.mainScr .offers .obert .offer.sale .timer_wrap .cont.cent, .offerCopy .offers .obert .offer.sale .timer_wrap .cont.cent {
+		margin: 0 5px;
+	}
+	.mainScr .offers .obert .offer.sale .timer_wrap .cont p + p, .offerCopy .offers .obert .offer.sale .timer_wrap .cont p + p {
+		margin-left: -1px;
+	}
+	.mainScr .offers .obert, .offerCopy .offers .obert {
+		width: 100%;
+	}
+	.mainScr .offers .obert .offer.attention, .offerCopy .offers .obert .offer.attention {
+		margin: 0 11px;
+	}
+	.attention {
+		img {
+			width: 90%;
+		}
+	}
+	.mainScr .offers .obert .offer.sale .timer_wrap .cont p, .offerCopy .offers .obert .offer.sale .timer_wrap .cont p {
+		width: 30px;
+		height: 44px;
+		font-size: 25px;
+		padding-top: 3px;
+		margin-bottom: 3px;
+	}
+	.mainScr .offers .obert .offer.sale .timer_wrap .podpis, .offerCopy .offers .obert .offer.sale .timer_wrap .podpis {
+		font-size: 11px;
+		letter-spacing: 1px;
+	}
+	.mainScr .offers .obert .offer.sale .timer_wrap .podpis.cent, .offerCopy .offers .obert .offer.sale .timer_wrap .podpis.cent {
+		margin: 0 23px 0 25px;
+	}
+	.mainScr .offers .obert .offer, .offerCopy .offers .obert .offer {
+		padding-top: 40px;
+		height: 370px;
+	}
+	.about {
+		h1 {
+			font-size: 24px!important;
+		}
+		p {
+			font-size: 13px;
+			margin-left: -15px;
+		}
+	}
+	.feedback article .text p {
+		font-size: 13px;
+	}
+	.feedback article h3 {
+		font-size: 16px;
+		margin: 0 0 10px;
+	}
+	.feedback article .text p + p {
+		margin-top: 10px;
+	}
+	.feedback {
+		background-image: none;
+		h1 {
+			font-size: 24px!important;
+		}
+		img {
+			width: 45%;
+		}
+		article {
+			padding: 35px 15px;
+		}
+	}
+	.feedback .art1 img {
+		margin-top: -330px;
+		margin-left: -220px;
+	}
+	.feedback .art2 img {
+		margin-top: -340px;
+		margin-left: 540px;
+	}
+	.video {
+		h1 {
+			font-size: 24px!important;
+		}
+	}
+	.dostavka {
+		h1 {
+			font-size: 24px!important;
+		}
+	}
+	.dostavka .blocks {
+		width: 105px;
+		&__text {
+			font-size: 12px;
+		}
+	}
+	.dostavka h3 {
+		letter-spacing: 0px;
+	}
+	.footer {
+		p, a {
+			font-size: 11px;
+		}
+	}
+}
+@media (max-width: 767px) {
+	.header {
+		.col-xs-12 {
+			text-align: center;
+		}
+	}
+	.mainPart .text-right {
+		text-align: center;
+	}
+	.mainPart, .offers {
+		background-image: none!important;
+		background-color: #bcbcca;
+	}
+	.offers {
+		padding-bottom: 60px;
+	}
+	.mainScr .offers .obert .offer, .offerCopy .offers .obert .offer {
+		display: block;
+		margin: auto!important;
+	}
+	.mainScr .offers .obert, .offerCopy .offers .obert {
+		width: 100%;
+	}
+	.mainScr .mainPart h1, .offerCopy .mainPart h1 {
+		font-size: 36px;
+		letter-spacing: 5px;
+	}
+	.mainScr .mainPart h4, .offerCopy .mainPart h4 {
+		letter-spacing: 1px;
+	}
+	.mainScr .mainPart p.price, .offerCopy .mainPart p.price {
+		font-size: 24px;
+	}
+	.mainScr .mainPart .list, .offerCopy .mainPart .list {
+		display: none;
+	}
+	.mainScr .mainPart button, .offerCopy .mainPart button {
+		margin-top: 0;
+	}
+	.attention {
+		img {
+			width: 70%;
+		}
+	}
+	.mainScr .offers .obert .offer, .offerCopy .offers .obert .offer {
+		height: 350px;
+		width: 260px;
+		margin-top: 20px!important;
+	}
+	.about {
+		h1, hr {
+			margin-left: 60px;
+		}
+		hr {
+			width: 90px;
+		}
+		img {
+			margin-bottom: 15px;
+		}
+		p {
+			font-size: 13px;
+			margin-left: 0px;
+		}
+	}
+	.poster1 img {
+		width: 145%;
+		margin-left: -25px;
+	}
+	.feedback {
+		.header {
+			
+			h1, hr {
+				margin-right: 90px;
+			}
+			hr {
+				width: 60px;
+				margin-right: 95px;
+			}
+		}
+	}
+	.feedback .art1 img {
+		margin: auto;
+		width: 60%;
+		margin-left: 30px;
+    	margin-bottom: 15px;
+	}
+	.feedback .art2 img {
+		margin: auto;
+		width: 60%;
+		margin-left: 55px;
+    	margin-bottom: 15px;
+	}
+	.feedback .art2, .feedback .art1 {
+		padding-top: 10px;
+		article {
+			hr {
+				width: 60px;
+			}
+		}
+	}
+	.video {
+		.main {
+			padding-left: 20px;
+			padding-right: 20px;
+		}
+		h1, hr {
+			margin-left: 50px;
+		}
+		hr {
+			width: 100px;
+		}
+	}
+	.dostavka {
+		h1 {
+			margin: auto;
+			letter-spacing: 3px;
+		}
+		hr {
+			width: 150px;
+		}
+		h3 {
+			font-size: 16px;
+			text-align: center;
+			width: 65%;
+			margin: auto;
+		}
+	}
+	.dostavka .blocks {
+		margin: 0 19px!important;
+		margin-top: 15px!important;
+	}
+	
+}
+@media (min-width: 768px) {
+
+}
+@media (max-width: 736px) {
+	
+}
+@media (max-width: 670px) {
+	.modal.myModal .modal-dialog {
+		width: 97% !important;
+		.list, .tovar {
+			display: none;
+		}
+		.form {
+			width: 95%;
+			margin: auto;
+			display: block;
+		}
+		h4 {
+			padding-left: 0;
+		}
+		h1 {
+			font-size: 56px;
+		}
+	}
+}
+@media (max-width: 640px) {
+
+}
+@media (max-width: 568px) {
+
+}
+@media (max-width: 415px) {
+	.feedback .header h1, .feedback .header hr {
+		margin-right: 144px;
+	}
+	.about h1, .about hr {
+		margin-left: 105px;
+	}
+	.video h1, .video hr {
+		margin-left: 90px;
+	}
+	.dostavka {
+		h1, hr {
+			margin-right: 50px!important;
+		}
+	}
+}
+@media (min-width: 768px) {
+	
+}
+@media (max-width: 413px) {
+	.modal.myModal .modal-dialog {
+		h1 {
+			font-size: 46px;
+		}
+		p.price {
+			font-size: 30px;
+		}
+		h4 {
+			font-size: 16px;
+			margin-top: 5px;
+		}
+	}
+}
+@media (max-width: 376px) {
+	.feedback .header h1, .feedback .header hr {
+		margin-right: 125px;
+	}
+	.about h1, .about hr {
+		margin-left: 90px;
+	}
+	.video h1, .video hr {
+		margin-left: 75px;
+	}
+	.dostavka {
+		h1, hr {
+			margin-right: 35px!important;
+		}
+	}
+}
+@media (max-width: 360px) {
+	.modal.myModal .modal-dialog {
+		width: 95% !important;
+		.form {
+			width: 97%;
+		}
+		h1 {
+			font-size: 36px;
+		}
+		p.price {
+			font-size: 24px;
+		}
+		h4 {
+			font-size: 16px;
+			margin-top: 5px;
+		}
+		.timer_wrap .cont.cent {
+    		margin: 0 10px;
+		}
+		.timer_wrap .cont p + p {
+			margin-left: 0px;
+		}
+		.timer_wrap .podpis.cent {
+			margin: 0 25px 0 27px;
+		}
+	}
+}
+@media (max-width: 321px) {
+	.about h1, .about hr {
+		margin-left: 60px;
+	}
+	.feedback .header h1, .feedback .header hr {
+		margin-right: 90px;
+	}
+	.video h1, .video hr {
+		margin-left: 45px;
+	}
+	.dostavka h1, .dostavka hr {
+		margin-right: 5px !important;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

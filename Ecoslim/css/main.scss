@@ -1,0 +1,663 @@
+$font-f: 'Roboto-Regular';
+$mainColor: #232323;
+$bg: #fff;
+$btnFormBg: #fff;
+$inputColor: #232323;
+$timerCifriBg: #232323;
+$black: #000;
+
+@import 'count';
+
+@mixin back {
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: cover;
+}
+
+
+@mixin place {
+	::-webkit-input-placeholder {color:$inputColor !important;font-family: 'Roboto-Regular', sans-serif !important;}
+	::-moz-placeholder          {color:$inputColor !important;font-family: 'Roboto-Regular', sans-serif !important;}
+	:-moz-placeholder           {color:$inputColor !important;font-family: 'Roboto-Regular', sans-serif !important;}
+	:-ms-input-placeholder      {color:$inputColor !important;font-family: 'Roboto-Regular', sans-serif !important;}
+}
+* {
+	outline: none!important;
+}
+html body {
+	background-color: $bg;
+	color: $mainColor;
+	font-family: 'Roboto-Regular';
+	font-size: 16px;
+}
+.upper {
+	text-transform: uppercase;
+}
+.text-right {
+	text-align: right;
+}
+.text-left {
+	text-align: left;
+}
+.modal-backdrop {
+	z-index: 100001 !important;
+}
+
+.btn {
+	font-family: 'Roboto-Medium';
+	font-size: 16px;
+	border-radius: 1px;
+	width: 100%;
+	&.btnForm, &.btnModal {
+		transition: all .3s ease-in-out;
+		height: 50px;
+	}
+	&.btnModal {
+		border: 1px solid #cb1c24;
+		color: #c70c13;
+		&:hover {
+			background-color: #cb1c24;
+			color: #fff;
+		}
+	}
+	&.btnForm {
+		background-color: #232323;
+		color: #fff;
+		border: none;
+		&:hover {
+			color: #ffa8ab;
+		}
+	}
+}
+
+
+.heading {
+	font-size: 40px;
+	font-family: 'calibriBold';
+	margin: 0;
+	text-transform: uppercase;
+}
+.subHeading {
+	font-size: 18px;
+	margin: 5px 0 40px;
+}
+
+.modal {
+	@include place;
+	z-index: 100002 !important;
+	.modal-dialog {
+		width: 950px!important;
+	}
+	color: $mainColor!important;
+	font-family: 'Roboto-Regular'!important;
+}
+.modal-body {
+	height: 760px!important;
+	margin-top: -70px;
+}
+.modal-content {
+	border-radius: 0px !important;
+	border: none;
+	
+	padding-bottom: 20px !important;
+	background-color: transparent;
+	box-shadow: none;
+}
+.close, .close:focus, .close:hover {
+	filter: alpha(opacity=100) !important;
+	opacity: 1 !important;
+}
+.modal-header {
+	border: none;
+	.close {
+		margin-top: 0px !important;
+		margin-right: 0px;
+		box-shadow: none !important;
+		position: relative;
+		top: 0;
+		right: 20px;
+		z-index: 1;
+	}
+}
+input {
+	font-size: 16px!important;
+	transition: all .3s ease-in-out!important;
+	&:hover {
+		background-color: #cdcaca !important;
+	}
+}
+.block {
+	padding: 70px 0 90px;
+}
+.offer {
+	padding: 30px 0;
+}
+.mainScr {
+	.header {
+		.wrap {
+			margin-top: 14px;
+			&.cent {
+				margin-left: 45px;
+				margin-right: 45px;
+			}
+			display: inline-block;
+			vertical-align: middle;
+			img, span {
+				display: inline-block;
+				vertical-align: middle;
+			}
+			span {
+				font-size: 14px;
+				margin-left: 5px;
+			}
+		}
+		.btn, .logo {
+			margin: 20px 0; 
+		}
+	}
+	.offer {
+		background-image: url(../img/bgMainScr.jpg);
+		@include back;
+	}
+}
+
+.mainPart {
+	.wrapper {
+		.header {
+			background-color: #0f0f0f;
+			padding: 35px 0;
+			color: #fff;
+			.rw {
+				h1, h3 {
+					display: inline-block;
+					vertical-align: middle;
+					margin: 0;
+				}
+				h1.big {
+					font-size: 68px;
+					font-family: 'CenturyGothic';
+				}
+				h3 {
+					font-family: 'Roboto-Light';
+					text-align: left;
+					margin-top: 10px;
+				}
+			}
+			p.sub {
+				color: #f6bcbc;
+				font-family: 'roboto-light-italic';
+			}
+		}
+		.leftSide, .rightSide {
+			float: left;
+			width: 50%;
+			height: 550px;
+		}
+		.leftSide {
+			padding-bottom: 70px;
+			margin-left: .5px;
+			background-color: #e79bb0;
+			h1.price {
+				font-size: 26px;
+				margin-top: 35px;
+				.zach {
+					font-family: 'Roboto-Bold';
+					text-decoration: line-through;
+				}
+				.coloured {
+					color: #fff;
+				}
+			}
+			.timer {
+				&__heading {
+					font-style: italic;
+					margin-bottom: 20px;
+				}
+				&__item {
+					background-color: $timerCifriBg;
+					height: 45px;
+					width: 50px;
+					font-size: 24px;
+					color: #fff;
+					text-align: center;
+					display: inline-block;
+					vertical-align: middle;
+
+					padding-top: 6px;
+					&.cent {
+						margin: 0 30px;
+					}
+				}
+				.text {
+					&.first {
+						margin-left: -2px!important;
+					}
+					font-size: 14px;
+					font-family: 'Roboto-Bold';
+					text-transform: uppercase;
+					display: inline-block;
+					width: 50px;
+					margin-top: 10px;
+					&.cent {
+						margin: 0 27px 0 30px;
+					}
+				}
+			}
+			form {
+				@include place;
+				width: 270px;
+				margin: auto;
+				margin-top: 30px;
+				input, select, button {
+					width: 100%;
+					border-radius: 0;
+				}
+				input, select {
+					padding-left: 16px;
+					height: 40px;
+					border: 1px solid #ad4c4d!important;
+					margin-bottom: 15px;
+					color:$inputColor;
+				}
+			}
+			p.podformoy {
+				letter-spacing: .5px;
+				.bold {
+					font-family: 'Roboto-Black';
+				}
+			}
+		}
+		.rightSide {
+			margin-left: -.5px;
+			padding: 30px 0;
+			background-color: #fff;
+			.sale {
+				position: absolute;
+				
+				border-radius: 50%;
+				background-color: #c70c13;
+				color: #fff;
+				display: table;
+				width: 70px;
+				top: 210px;
+    			right: 190px;
+				.t {
+					display: table-cell;
+					vertical-align: middle;
+					height: 70px;
+					width: 70px;
+					font-size: 24px;
+					margin: 0;
+				}
+			}
+			.opis {
+				margin-top: 15px;
+				.bold {
+					font-family: 'Roboto-Black';
+				}
+				.lastpack, .lastpack + span {
+					color: #993535;
+				}
+			}
+		}
+	}
+}
+
+.badges {
+	background-color: #0f0f0f;
+	padding: 25px 0;
+	.cent {
+		margin: 0 120px;
+	}
+}
+
+.advantages {
+	background-image: url(../img/bgAdvan.jpg);
+	@include back;
+	.item {
+		&.item1 {
+			background-image: url(../img/advan1.png);
+		}
+		&.item2 {
+			background-image: url(../img/advan2.png);
+		}
+		&.item3 {
+			background-image: url(../img/advan3.png);
+		}
+		&.item4 {
+			background-image: url(../img/advan4.png);
+		}
+		&:nth-child(4) {
+			margin: 0;
+		}
+		margin-right: 25px;
+		display: inline-block;
+		width: 213px;
+  		height: 278px;
+		padding: 51px 0;
+		@include back;
+		.inside {
+			font-size: 18px;
+			height: 176px;
+			width: 176px;
+			display: table;
+			border-radius: 50%;
+			background-color: #fff;
+			margin: auto;
+			p {
+				display: table-cell;
+				vertical-align: middle;
+				height: 176px;
+				width: 176px;
+			}
+		}
+	}
+}
+
+.whyWe {
+	background-color: #ffe6e6;
+	.poster {
+		margin-bottom: 15px;
+	}
+	h3 {
+		margin: 35px 0;
+		font-size: 22px;
+		font-family: 'Roboto-Bold';
+	}
+}
+
+.spec {
+	background-image: url(../img/bg_Doctor_SposobPrim_Dostavka.jpg);
+	@include back;
+	color: #fff;
+	&.block {
+		padding-bottom: 0;
+	}
+	.subHeading {
+		color: #f6bcbc;
+	}
+	.text {
+		margin-bottom: 50px;
+	}
+	.name {
+		color: #f6bcbc;
+		margin-bottom: 0;
+	}
+	.post {
+		font-style: italic;
+	}
+	img.doc {
+		margin-top: -40px;
+	}
+}
+
+.offserCopy1 {
+	background-image: url(../img/bgOffer1.jpg);
+	@include back
+}
+
+.sostav {
+	background-image: url(../img/bgSostav.jpg);
+	@include back;
+	.subHeading {
+		margin-bottom: 30px;
+	}
+	.subsubHeading {
+		font-family: 'Roboto-Medium';
+		margin-bottom: 15px;
+	}
+	.wrap {
+		&__item {
+			display: inline-block;
+			vertical-align: top;
+			text-align: center;
+			width: 184px;
+			.imgWrap {
+				border: 2px solid rgb(218, 138, 160);
+				padding: 10px;
+				border-radius: 50%;
+			}
+			p.head {
+				font-size: 18px;
+				font-family: 'Roboto-Bold';
+				margin-top: 15px;
+			}
+			&:nth-child(2), &:nth-child(4) {
+				margin: 0 50px;
+			}
+			&:nth-child(6), &:nth-child(7) {
+				margin: 0 25px;
+			}
+		}
+	}
+}
+
+.reasons {
+	background-color: #ffe6e6;
+	.subHeading {
+		margin-bottom: 30px;
+	}
+	.subsubHeading {
+		font-family: 'Roboto-Medium';
+		margin-bottom: 15px;
+	}
+	.qw {
+		display: inline-block;
+		vertical-align: top;
+	}
+	.wrap {
+		&.square {
+			&::before {
+				width: 120px;
+				height: 120px;
+				background-color: rgb(231, 155, 176);
+				display: block;
+				position: absolute;
+				content: " ";
+				left: 37px;
+    			top: 15px;
+			}
+		}
+		&.round {
+			background-color: #fff;
+			width: 150px;
+			height: 150px;
+			border-radius: 50%;
+			padding: 10px;
+			position: relative;
+			margin: auto;
+		}
+	}
+	h3.head {
+		font-family: 'Roboto-Bold';
+		margin-bottom: 5px;
+	}
+}
+
+.method {
+	background-image: url(../img/bg_Doctor_SposobPrim_Dostavka.jpg);
+	@include back;
+	color: #fff;
+	.subHeading {
+		color: #f6bcbc;
+		margin-bottom: 30px;
+	}
+	.subsubHeading {
+		font-family: 'Roboto-Medium';
+		margin-bottom: 15px;
+	}
+	.item, .arrow {
+		display: inline-block;
+		vertical-align: middle;
+	}
+	.item {
+		margin: 0 40px;
+		img {
+			border: 2px solid rgb(218, 138, 160);
+			border-radius: 50%;
+			margin-bottom: 10px;
+		}
+	}
+	.arrow {
+		position: relative;
+		top: -40px;
+	}
+}
+
+.feeds {
+	background-image: url(../img/bgSostav.jpg);
+	@include back;
+	background-position: -160px 100%;
+	.ww {
+		width: 810px;
+		margin: auto;
+	}
+	.wrap {
+		&.square {
+			&::before {
+				width: 120px;
+				height: 120px;
+				background-color: rgb(231, 155, 176);
+				display: block;
+				position: absolute;
+				content: " ";
+				left: 195px;
+    			top: 15px;
+			}
+		}
+		&.round {
+			background-color: #fff0f4;
+			width: 150px;
+			height: 150px;
+			border-radius: 50%;
+			padding: 10px;
+			position: relative;
+			margin: auto;
+		}
+	}
+	.leftPart, .rightPart {
+		display: inline-block;
+		vertical-align: middle;
+	}
+	.rightPart {
+		width: 580px;
+		margin-left: 10px;
+		p.head {
+			font-size: 18px;
+			font-family: 'Roboto-Bold';
+			margin: 0;
+		}
+	}
+	.bx-wrapper .bx-viewport {
+		box-shadow: none;
+		border: none;
+		background: transparent;
+		left: 0;
+	}
+	.bx-wrapper .bx-controls-direction a {
+		width: 33px;
+		height: 30px;
+	}
+}
+
+.audioFeeds {
+	background-color: #ffe6e6;
+	p.name {
+		font-family: 'Roboto-Black';
+		text-transform: uppercase;
+		margin-bottom: 20px;
+	}
+	.audio__wrap {
+		padding: 0 0 30px;
+		.plyr--audio .plyr__controls {
+			color: #fff;
+			background: #202020!important;
+		}
+		.plyr--audio .plyr__progress--buffer, .plyr--audio .plyr__volume--display {
+			background: #5c5c5c!important;
+		}
+		.plyr__progress--played, .plyr__volume--display {
+			color: #c2c2c2!important;
+		}
+	}
+}
+
+.order {
+	background-image: url(../img/bg_Doctor_SposobPrim_Dostavka.jpg);
+	@include back;
+	color: #fff;
+	.subHeading {
+		color: #f6bcbc;
+		margin-bottom: 30px;
+	}
+	.subsubHeading {
+		font-family: 'Roboto-Medium';
+		margin-bottom: 25px;
+	}
+	.arse, .arrow {
+		display: inline-block;
+		vertical-align: middle;
+	}
+	.arrow {
+		margin: 0 30px;
+		position: relative;
+    	top: -30px;
+	}
+	.arse {		
+		.mainWrap {
+			height: 148px;
+			width: 148px;
+			border-radius: 50%;
+			border: 1px solid #fff;
+			display: table;
+			.iconWrap {
+				height: 148px;
+				width: 148px;
+				display: table-cell;
+				vertical-align: middle;
+			}
+		}
+		p.text {
+			font-size: 18px;
+			margin: 15px 0 0;
+		}
+	}
+}
+
+.offserCopy2 {
+	background-image: url(../img/bgMainScr.jpg);
+	@include back;
+}
+
+
+.footer {
+	//margin-top: 55px;
+	background-color: $black;
+	padding: 55px 0;
+	
+	p {
+		font-size: 14px;
+		color: #dad7c4;
+		letter-spacing: 1px;
+	}
+	a {
+		color: #e69cb1;
+		text-decoration: underline;
+	}
+}
+
+@import 'media';
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,553 @@
+@media (max-width: 1199px) {
+	header.header .middle {
+		margin: 0 17px;
+		.item {
+			margin: 0 12px;
+			&:nth-child(2) {
+				margin: 0;
+			}
+		}
+	}
+	header.header .wrap span {
+		width: 105px;
+	}
+	.mainScr main {
+		width: 61%;
+	}
+	.mainScr .offerBblock .dirty {
+		left: -450px;
+		top: 200px;
+		width: 55%;
+	}
+	.mainScr .offerBblock .leaves {
+		left: 17px;
+		top: 20px;
+	}
+	.mainScr .offerBblock .brand, .mainScr .offerBblock .sale {
+		right: -197px;
+		top: -300px;
+	}
+	.consequence, .result {
+		.flex .item {
+			margin: 0 37px;
+		}
+	}
+	.secret {
+		img {
+			width: 100%;
+		}
+		.article p {
+			font-size: 21px;
+			margin-bottom: 22px;
+			line-height: 1.1;
+		}
+	}
+	.howItWorks {
+		img.poster {
+			width: 100%;
+		}
+	}
+	.howItWorks .item .text {
+		width: 66%;
+	}
+	.order .arrow {
+		
+	}
+	.order .item {
+		width: 150px;
+		
+	}
+	
+}
+@media (max-width: 991px) {
+	body {
+		font-size: 14px;
+	}
+	header.header {
+		.logo {
+			font-size: 27px;
+		}
+		.btn {
+			width: 130px;
+		}
+		.middle .item img {
+			width: 55px;
+		}
+		.middle .item span {
+			line-height: 1.2;
+		}
+		.middle .item {
+			margin: 0 11px;
+		}
+		.middle {
+			margin: 0;
+		}
+	}
+	
+	.mainScr {
+		h3.price {
+			font-size: 18px;
+			margin-top: 10px;
+		}
+		main {
+			.timer__item {
+				height: 45px;
+				width: 45px;
+				font-size: 18px;
+				padding: 10px 0;
+				margin: 0 10px;
+			}
+			hr {
+				margin: 15px auto;
+				width: 70px;
+			}
+			.timer .text {
+				width: 45px;
+				margin: 0 10px;
+				font-size: 10px;
+			}
+			form button, form .form-group-lg .form-control, form select.form-control {
+				width: 250px;
+				height: 30px!important;
+			}
+			.podformoy {
+				right: 15px;
+			}
+		}
+		.offerBblock {
+			.dirty {
+				left: -460px;
+				top: 165px;
+				width: 47%;
+			}
+			.leaves {
+				left: -70px;
+				top: 15px;
+				width: 35%;
+			}
+			.brand, .sale {
+				right: -155px;
+    			top: -250px;
+				width: 60px;
+				height: 60px;
+				.round {
+					height: 55px;
+					width: 55px;
+				}
+			}
+		}
+		
+	}
+	.btn {
+		font-size: 14px;
+	}
+	h1.heading {
+		font-size: 32px;
+	}
+	h2.subHeading {
+		font-size: 20px;
+	}
+	.block {
+		padding: 55px 0 75px;
+	}
+	.consequence .flex .item, .result .flex .item {
+		margin: 0 35px;
+		img {
+			width: 60px;
+		}
+		span {
+			font-size: 16px;
+		}
+	}
+	.secret .article p {
+		font-size: 18px;
+		margin-bottom: 22px;
+		line-height: 1.2;
+	}
+	.composition {
+		.wrap .item {
+			.imgWrap {
+				width: 170px;
+				height: 170px;
+				img {
+					width: 140px;
+				}
+			}
+			h3.head, h3.subHead {
+				font-size: 16px;
+			}
+			p.text {
+				font-size: 13px;
+				padding: 0 25px;
+			}
+		}
+		.foo h3 {
+			font-size: 16px;
+		}
+		.foo h4 {
+			font-size: 13px;
+		}
+	}
+	.howItWorks .textBl p {
+		font-size: 16px;
+	}
+	.feeds .sld .before, .feeds .sld .after {
+		width: 170px;
+		height: 170px;
+		margin: 0 -25px;
+		img {
+			width: 140px;
+		}
+	}
+	.feeds .sld .text {
+		font-size: 13px;
+	}
+	.audioFeeds {
+		.flex {
+			.item {
+				.imgWrap {
+					width: 180px;
+					height: 180px;
+					img {
+						width: 140px;
+					}
+				}
+				.head, .subHead {
+					font-size: 16px;
+				}
+			}
+		}
+		.plyr--audio .plyr__controls {
+			padding: 0 10px;
+		}
+	}
+	.spec p:not(.aa) {
+		font-size: 16px;
+		margin-bottom: 20px;
+		width: 95%;
+	}
+	.spec .aa {
+		font-size: 14px;
+		width: 90%;
+		margin: auto;
+	}
+	.spec h3.head {
+		font-size: 16px;
+	}
+	.spec img {
+		//width: 75%;
+	}
+	.stat .flex .item .persent {
+		font-size: 71px;
+	}
+	.stat .flex .item .text {
+		font-size: 13px;
+		width: 175px;
+    	margin: auto;
+	}
+	.order .item {
+		width: 90px;
+		.text {
+			font-size: 13px;
+		}
+		img {
+			width: 100%;
+		}
+	}
+	.order .arrow {
+		width: 30px;
+		top: 40px;
+    	margin: 0 15px;
+	}
+	.order p {
+		font-size: 13px;
+	}
+	.order .item h4 {
+		font-size: 13px;
+	}
+	.modal#myModal .modal-dialog {
+		width: 670px;
+	}
+	.modal#myModal .modal-content .mainScr main .podformoy {
+		right: 25px;
+	}
+	.modal#myModal .modal-content .mainScr .offerBblock .brand, .modal#myModal .modal-content .mainScr .offerBblock .sale {
+		right: -157px;
+		top: -300px;
+	}
+	.modal#myModal .modal-content .mainScr .offerBblock .dirty {
+		left: -418px;
+		top: 110px;
+		width: 50%;
+	}
+	.modal#myModal .modal-content .mainScr .offerBblock .leaves {
+		left: -50px;
+		top: -20px;
+	}
+}
+@media (max-width: 767px) {
+	.modal#myModal {
+		display: none!important;
+	}
+	.modal-backdrop {
+		display: none!important;
+	}
+	.block {
+		padding: 40px 0 35px;
+	}
+	header.header .logo {
+		display: block;
+		margin: auto;
+		text-align: center;
+	}
+	.mainScr {
+		padding: 40px 0 50px;
+		h1 {
+			margin-bottom: 10px;
+		}
+	}
+	h1.heading {
+		font-size: 26px;
+	}
+	.mainScr .offerBblock .dirty {
+		left: 0px;
+		top: 0;
+		width: 47%;
+	}
+	.mainScr .offerBblock .dirty, .mainScr .offerBblock .leaves, .mainScr .offerBblock .brand, .mainScr .offerBblock .sale {
+		position: inherit;
+		margin: auto;
+	}
+	.mainScr .offerBblock {
+		text-align: center;
+		position: initial;
+		.dirty, .leaves {
+			display: block;
+		}
+		.dirty {
+			width: 280px;
+			
+			margin-top: -170px;
+		}
+		.leaves {
+			width: 200px;
+		}
+		.sale {
+			position: relative;
+			top: -230px;
+			right: -105px;
+			margin-top: -65px;
+		}
+	}
+	.mainScr main {
+		width: 290px;
+		padding: 20px 0 15px;
+	}
+	.mainScr main .podformoy {
+		position: initial;
+		margin-top: 10px;
+		text-align: center;
+	}
+	.consequence .flex .item, .result .flex .item {
+		width: 175px;
+		margin-top: 20px!important;
+		&:nth-child(1) {
+			
+		}
+	}
+	.secret {
+		.subHeading {
+			width: 250px;
+			margin: 5px auto 20px;
+		}
+		.text {
+			margin-top: 10px;
+			p {
+				font-size: 16px;
+			}
+		}
+	}
+	.composition .wrap {
+		flex-wrap: wrap;
+	}
+	.composition .wrap .item p.text {
+		margin-bottom: 15px;
+	}
+	.composition .foo h4 {
+		padding: 0 20px;
+	}
+	.howItWorks .trello {
+		overflow-x: hidden;
+		width: 290px;
+		margin: auto;
+		.poster {
+			width: 537px;
+			display: block;
+			margin: auto;
+			margin-left: -200px;
+		}
+	}
+	.howItWorks .go {
+		flex-wrap: wrap;
+	}
+	.howItWorks .go .item img {
+		width: 50px;
+	}
+	.howItWorks .go .item span {
+		line-height: 1.2;
+	}
+	.howItWorks .go .item {
+		margin: 0 10px 10px;
+		&:nth-child(3) {
+			
+		}
+	}
+	.audioFeeds, .stat {
+		.flex {
+			flex-wrap: wrap;
+		}
+	}
+	.feeds .sld .before img, .feeds .sld .after img {
+		width: 120px;
+	}
+	.feeds .sld .before, .feeds .sld .after {
+		width: 150px;
+		height: 150px;
+	}
+	.feeds .sld .text {
+		width: 90%;
+	}
+	.feeds .sld h3.name {
+		font-size: 16px;
+	}
+	.feeds .sld .rating img {
+		width: 20px;
+	}
+	.bx-wrapper .bx-controls-direction a {
+    	top: 47%;
+	}
+	.bx-wrapper .bx-prev {
+		left: 20px;
+	}
+	.bx-wrapper .bx-next {
+		right: 20px;
+	}
+	.audioFeeds .flex, .stat .flex {
+		.item {
+			margin: auto;
+			margin-bottom: 20px;
+			&:nth-last-child(1) {
+				margin-bottom: 0;
+			}
+		}
+	}
+	.spec img {
+		width: 200px;
+	}
+	.spec .aa {
+		width: 200px;
+		margin-bottom: 20px;
+	}
+	.spec h3.head {
+		margin: 5px 0;
+	}
+	.order .arrow {
+		display: none;
+	}
+	.order .item {
+		margin: 0 26px;
+		margin-bottom: 20px;
+		&:nth-last-child(1) {
+			margin-bottom: 0;
+		}
+	}
+	.stat .flex {
+		display: block;
+	}
+}
+@media (min-width: 768px) {
+
+}
+@media (max-width: 736px) {
+
+}
+@media (max-width: 667px) {
+
+}
+@media (max-width: 640px) {
+
+}
+@media (max-width: 568px) {
+
+}
+@media (max-width: 415px) {
+
+}
+@media (min-width: 768px) {
+	
+}
+@media (max-width: 413px) {
+	
+}
+@media (max-width: 376px) {
+	
+}
+@media (max-width: 360px) {
+
+}
+@media (max-width: 321px) {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

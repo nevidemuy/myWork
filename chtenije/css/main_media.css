@@ -1,0 +1,49 @@
+@media (max-width: 991px) {
+  #scr4 input, #scr4 button {
+    display: block;
+    margin: auto;
+    margin-top: 30px; }
+
+  .twitch {
+    text-align: center; } }
+@media (max-width: 415px) {
+  iframe {
+    width: 100% !important;
+    height: 220px !important; }
+
+  #scr1 h1, #scr2 h1, #scr3 h1 {
+    font-size: 45px; }
+
+  #scr1 input {
+    width: 100%; }
+
+  #scr1 button {
+    margin: auto;
+    width: 100%;
+    margin-top: 20px; }
+
+  #scr2 h1 {
+    font-size: 45px; }
+
+  #scr2 h2 {
+    font-size: 13px; }
+
+  #scr2 .tekst {
+    margin-top: 10px; }
+
+  #scr3 h2 {
+    font-size: 16px; }
+
+  #scr4 h1 {
+    font-size: 40px; }
+
+  #scr4 input, #scr4 button {
+    width: 100%; }
+
+  #scr4, #scr1, #scr2, #scr3 {
+    padding-top: 30px; }
+
+  #scr2 .tekst article {
+    text-align: justify; } }
+
+/*# sourceMappingURL=main_media.css.map */

@@ -1,0 +1,440 @@
+@import 'colors';
+@media (max-width: 1199px) {
+	.mainScr .aside {
+		width: 160px;
+		
+	}
+	.mainPart .wrapper .leftSide p.podformoy {
+		font-size: 15px;
+	}
+	.mainPart .wrapper .rightSide .tovarAndOpis {
+		
+		height: 455px;
+	}
+	.mainPart .wrapper .leftSide .timer__item {
+		font-size: 25px;
+		width: 32%;
+	}
+	.mainPart .wrapper .leftSide .timer__item .text {
+		font-size: 12px;
+	}
+	.mainPart .wrapper .rightSide .sale {
+    	right: -240px;
+	}
+	.spec p.text:not(.last) {
+		margin-bottom: 30px;
+	}
+	.about {
+		p.text {
+			font-size: 16px;
+		}
+		.imgBl {
+			overflow-x: hidden;
+			img {
+				width: 135%;
+			}
+		}
+	}
+	.sostav .wrap__item {
+		width: 17%;
+	}
+	.sostav .wrap__item:nth-child(even) {
+    	margin: 0 31px;
+	}
+	.feeds .wrap {
+		width: 76%;
+	}
+	.primenenie .wrap__item:nth-child(1) img.arrow {
+		left: 33%;
+	}
+	.primenenie .wrap__item:nth-child(2) img.arrow {
+		left: 66%;
+	}
+	.order .arse:nth-child(even) {
+		margin: 0 43px;
+	}
+}
+@media (max-width: 991px) {
+	html body {
+		font-size: 13px;
+	}
+	.mainScr .aside {
+		width: 130px;
+		
+		.logo {
+			width: 70%;
+		}
+		button.btn {
+			width: 90%;
+			font-size: 11px;
+			height: 30px;
+		}
+	}
+	.mainScr .aside #menu {
+		margin-top: 50px;
+		.navbar-default #men {
+			padding-left: 20px;
+			ul li {
+				margin-bottom: 22px;
+				a {
+					font-size: 11px;
+				}
+			}
+		}
+	}
+	.mainPart .wrapper .header {
+		width: 70%;
+		margin: auto;
+		h1.big {
+			font-size: 34px;
+		}
+		h4 {
+			font-size: 13px;
+		}
+	}
+	.mainPart .wrapper h1.price {
+		font-size: 24px;
+	}
+	.mainPart .wrapper .leftSide .timer__heading {
+		font-size: 13px;
+	}
+	.mainPart .wrapper .leftSide .timer__item {
+		font-size: 20px;
+		width: 32%;
+	}
+	.mainPart .wrapper .leftSide .timer__item .text {
+		font-size: 9px;
+	}
+	.mainPart .wrapper .leftSide p.podformoy {
+		font-size: 12px;
+	}
+	.mainPart .wrapper .leftSide .form {
+		input, select {
+			font-size: 15px;
+			height: 40px!important;
+		}
+		button.btn {
+			height: 40px;
+			font-size: 13px;
+		}
+	}
+	.mainPart .wrapper .rightSide .tovarAndOpis {
+		height: 390px;
+		padding: 140px 0 0;
+		img {
+			width: 65%;
+		}
+	}
+	.mainPart .wrapper .rightSide .sale {
+		top: -310px;
+    	right: -175px;
+	}
+	.troubles, .advantages, .team {
+		img {
+			width: 170px;
+		}
+	}
+	.spec {
+		img {
+			width: 80%;
+		}
+		p.name {
+			font-size: 12px;
+		}
+		p.specialnost {
+			font-size: 13px;
+		}
+	}
+	.about p.text {
+		font-size: 13px;
+	}
+	.sostav .wrap__item {
+		img {
+			width: 100%;
+		}
+	}
+	.sostav p.head {
+		font-size: 12px;
+	}
+	.sostav .wrap__item:nth-child(even) {
+		margin: 0 23px;
+	}
+	.bx-wrapper img {
+		width: 100%;
+	}
+	.feeds .wrap .leftPart {
+		width: 20%;
+	}
+	.feeds .wrap {
+		width: 80%;
+	}
+	.feeds .wrap .rightPart {
+		margin-left: 25px;
+	}
+	.primenenie .wrap__item {
+		width: 20%;
+		img:not(.arrow) {
+			width: 100%;
+		}
+	}
+	.primenenie .wrap__item img.arrow {
+		top: 24%;
+	}
+	.primenenie .wrap__item:nth-child(1) img.arrow {
+		left: 32%;
+	}
+	.primenenie .wrap__item:nth-child(2) img.arrow {
+		left: 67%;
+	}
+	.order .arse {
+		&:nth-child(3) {
+			img {
+				width: 65%!important;
+			}
+		}
+		.mainWrap {
+			text-align: center;
+			margin: auto;
+			.iconWrap {
+				height: 110px;
+				width: 110px;
+
+				margin: auto;
+				img {
+					width: 45%;
+				}
+			}
+		}
+	}
+	.order .arse:nth-child(even) {
+		margin: 0 25px;
+	}
+	.order .arse p.text {
+		font-size: 11px;
+	}
+	.order h3 {
+		font-size: 16px;
+	}
+	.heading {
+		font-size: 30px;
+	}
+	.subHeading {
+		font-size: 13px;
+	}
+	
+	.modal.myModal .modal-dialog {
+		width: 768px !important;
+	}
+	#mainModal {
+		.mainPart .wrapper .leftSide {
+			width: 40%;
+		}
+		.mainPart .wrapper .rightSide {
+			width: 40%;
+		}
+		.modal-content .mainPart .wrapper .rightSide .sale {
+			right: -230px !important;
+			top: -350px;
+		}
+	}
+}
+@media (max-width: 767px) {
+	.logoTop {
+		background-color: $secondColor;
+		padding: 25px 0;
+	}
+	.mainPart .wrapper .header {
+		width: 290px;
+	}
+	.mainPart .wrapper .header h1.big {
+		font-size: 23px;
+		letter-spacing: 1.5px;
+	}
+	.mainPart .wrapper h1.price {
+		font-size: 22px;
+	}
+	.mainPart .wrapper .rightSide .tovarAndOpis img {
+		width: 50%;
+	}
+	.mainPart .wrapper .rightSide .tovarAndOpis {
+		height: 300px;
+		padding: 100px 0 0;
+	}
+	.mainPart .wrapper .rightSide {
+		width: 240px;
+		.sale {
+			width: 70px;
+			height: 70px;
+			font-size: 20px;
+			padding-top: 21px;
+			top: -230px;
+			right: -190px;
+		}
+	}
+	.nopad {
+		padding: 0;
+	}
+	.mainPart .wrapper {
+		
+		.header {
+			padding: 30px 0;
+		}
+	}
+	.mainPart .wrapper .leftSide {
+		width: 240px;
+		margin: auto;
+	}
+	p.head {
+		margin: 5px 0 15px!important;
+	}
+	.troubles, .spec, .about, .advantages, .sostav, .feeds, .primenenie, .team {
+		padding: 55px 0;
+	}
+	.spec img {
+		width: 170px;
+	}
+	.about .imgBl {
+		width: 90%;
+		margin: 0 auto 25px;
+	}
+	.advantages, .primenenie, .team {
+		p.head {
+			margin: 5px 0 0 !important;
+		}
+		p.more {
+			margin-bottom: 15px;
+		}
+	}
+	.sostav .wrap__item {
+		width: 35%;
+	}
+	.sostav .wrap__item {
+		&:nth-child(even) {
+			margin: 0 20px;
+		}
+		margin: 0 20px;
+	}
+	.feeds .wrap .leftPart, .feeds .wrap .rightPart {
+		display: block;
+		margin: auto;
+	}
+	.feeds .wrap .leftPart {
+		width: 100px;
+		margin: auto;
+	}
+	.feeds .wrap .rightPart {
+		width: 95%;
+	}
+	.feeds .bx-wrapper .bx-controls-direction a {
+		top: 11%;
+	}
+	.bx-wrapper .bx-prev {
+		left: 30px;
+	}
+	.bx-wrapper .bx-next {
+		right: 30px;
+	}
+	.primenenie .wrap__item img.arrow {
+		display: none;
+	}
+	.primenenie .wrap__item {
+		width: 120px;
+		display: block;
+		margin: auto!important;
+	}
+	.order .arse {
+		margin: 0 15px!important;
+	}
+	.mainPart .wrapper .leftSide .timer__heading {
+		margin: 10px 0 0;
+	}
+	.mainPart .wrapper .leftSide p.podformoy {
+		font-size: 14px;
+	}
+}
+@media (min-width: 768px) {
+
+}
+@media (max-width: 736px) {
+	
+}
+@media (max-width: 670px) {
+	
+}
+@media (max-width: 640px) {
+
+}
+@media (max-width: 568px) {
+
+}
+@media (max-width: 415px) {
+	
+}
+@media (min-width: 768px) {
+	
+}
+@media (max-width: 413px) {
+	
+}
+@media (max-width: 376px) {
+	
+}
+@media (max-width: 360px) {
+	
+}
+@media (max-width: 321px) {
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

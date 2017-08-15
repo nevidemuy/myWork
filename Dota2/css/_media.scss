@@ -1,0 +1,420 @@
+@media (max-width: 1199px) {
+	#menu #_menu ul li {
+		margin: 0 34px;
+	}
+	.telega {
+		width: 230px!important;
+	}
+	.gifts .wrapBord .wrapBack .place13:nth-child(1) {
+		.imgOb {
+			img {
+				margin-left: -10px;
+			}
+		}
+	}
+	.discipline .wrap__item {
+		img {
+			width: 100%;
+		}
+	}
+	.tables .matchWrap {
+		display: block;
+		text-align: center;
+		.match {
+			width: 240px;
+			display: inline-block;
+			margin: 10px 5px;
+			.team {
+				text-align: left;
+			}
+		}
+	}
+	.tournamentNet .net .connectors .con .line {
+		width: 20px;
+	}
+	.tournamentNet .net .connectors.connectors3-4 {
+		margin-left: -145px;
+		position: relative;
+		z-index: -1;
+	}
+	
+	.tables .secondPart .t:not(.thirdTable) .matchesAccord .panel .panel-heading span, .tables .thirdPart .t:not(.thirdTable) .matchesAccord .panel .panel-heading span, .tables .fourthAndFifthPart .t:not(.thirdTable) .matchesAccord .panel .panel-heading span {
+		left: 86%;
+	}
+	#menu #_menu {
+		margin-top: -10px;
+		padding-top: 0;
+	}
+
+	.tables .matchesAccord .panel .panel-body td:nth-child(2) {
+		padding-left: 0!important;
+	}
+	.sponsors .gena, .infPart .gena {
+	    width: 100%;
+	}
+	.sponsors, .infPart {
+		.wrap {
+			img.rty {
+				height: 100%;
+			}
+		}
+	}
+}
+@media (max-width: 991px) {
+	
+	.tables .matchesAccord .panel .panel-body td:nth-child(3) {
+		width: 40px;
+	}
+	.tables .matchesAccord .panel .panel-body td span.win, .tables .matchesAccord .panel .panel-body td span.lost {
+		margin: 0 0px;
+	}
+
+
+	.tables table thead th:nth-child(2) {
+		padding-left: 100px;
+		width: 50%;
+	}
+	.tables table tbody tr td:nth-child(2) {
+		padding-left: 40px;
+	}
+	.tables .matchesAccord .panel .panel-heading span {
+		left: 86%;
+	}
+	.tables .matchesAccord .panel .panel-body td {
+		font-size: 13px;
+	}
+	.tournamentNet {
+		.scrollSMandXS {
+			overflow-x: scroll;
+			.net {
+				width: 990px;
+			}
+			.net.smal {
+				width: 800px;
+			}
+		}
+	}
+	#menu #_menu ul li a {
+		font-size: 12px;
+	}
+	#menu #_menu ul li {
+		margin: 0 25px;
+	}
+	#menu #_menu ul li.logo img {
+		margin-left: -7px;
+	}
+	.mainScr h1 {
+		font-size: 34px;
+	}
+	.mainScr .info .text p {
+		font-size: 14px;
+	}
+	.btn {
+		font-size: 12px!important;
+	}
+	.mainScr button.btn {
+		width: 185px;
+		height: 35px;
+	}
+	h1.heading {
+		font-size: 26px;
+	}
+	.telega {
+		width: 200px !important;
+	}
+	.gifts .wrapBord .wrapBack .place13 {
+		&__img {
+			width: 80%;
+			margin: 0;
+		}
+	}
+	.gifts .wrapBord .wrapBack .place13 .imgOb {
+		height: 180px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.gifts h4 {
+		font-size: 13px;
+	}
+	.gifts .wrapBord .wrapBack .place13__place {
+		font-size: 24px;
+	}
+	.gifts .wrapBord .wrapBack .place13__summ {
+		font-size: 16px;
+	}
+	.gifts .wrapBord .wrapBack .place46__place {
+		font-size: 18px;
+	}
+	.gifts .wrapBord .wrapBack .place46__summ {
+		font-size: 13px;
+	}
+	.gifts .wrapBord .wrapBack {
+		padding: 25px 0;
+	}
+	.gifts .wrapBord .wrapBack .place13__summ img {
+		width: 3.5%;
+	}
+	.conditions .wrap h2 {
+		font-size: 22px;
+	}
+	.conditions .wrap .item {
+		font-size: 13px;
+		width: 75%;
+	}
+	.sponsors, .infPart {
+		.wrap {
+			height: 70px;
+		}
+	}
+	.formBl h4.subHeading {
+		font-size: 13px;
+	}
+	.formBl form {
+		width: 250px;
+	}
+	.formBl form input, .formBl form textarea {
+		margin-top: 10px;
+		font-size: 13px!important;
+	}
+	.formBl form {
+		input {
+			height: 35px!important;
+		}
+		textarea {
+			max-height: 100px;
+		}
+	}
+	.formBl form button.btn {
+		margin-top: 10px;
+	}
+	.rules .text {
+		font-size: 13px;
+	}
+	.discipline .wrap__item p {
+		font-size: 13px;
+	}
+	.tables h2 {
+		font-size: 22px;
+	}
+	.tables h3.tHeading {
+		font-size: 18px;
+	}
+	.tables table thead th {
+		font-size: 12px;
+	}
+	.tables table tbody tr td {
+		font-size: 13px;
+	}
+	.tables .matchWrap .match .team {
+		font-size: 13px;
+	}
+	.tables .matchWrap .match .team .nameTeam {
+		width: 65%;
+	}
+	.tournamentNet h4.subHeading {
+		font-size: 13px;
+	}
+	.gifts .wrapBord .wrapBack .place13:nth-child(1) .imgOb img {
+		margin: 0;
+	}
+	.tables .secondPart .t:not(.thirdTable) .panel-body td, .tables .thirdPart .t:not(.thirdTable) .panel-body td, .tables .fourthAndFifthPart .t:not(.thirdTable) .panel-body td {
+		font-size: 12px;
+	}
+}
+@media (max-width: 767px) {
+	.tables .firstPart .tablePart {
+		background-image: none;
+	}
+	.modal.modalBecomeASponsor {
+		input, textarea, button.btn {
+			
+			margin-left: auto!important;
+			margin-right: auto!important;
+		}
+		form {
+			width: 90%;
+		}
+	}
+	.sponsors .gena .bro, .infPart .gena .bro {
+		width: 280px;
+		margin: auto;
+	}
+	.tables {
+		
+		.fixOnXS {
+			overflow-x: scroll;
+			table, .panel-default {
+				width: 620px;
+			}
+		}
+	}
+	.mainScr {
+		.logo {
+			margin: auto;
+		}
+	}
+	.mainScr h1 {
+		font-size: 28px;
+	}
+	.mainScr .info {
+		padding: 10px;
+		.text p {
+			padding: 10px 0;
+		}
+	}
+	.mainScr button.btn {
+		margin: 15px 0;
+	}
+	.mainScr .videoBl {
+		padding: 10px;
+		.plyr__video-embed {
+			padding-bottom: 90.25%;
+		}
+	}
+	img.telega {
+		display: none;
+	}
+	.gifts, .conditions, .sponsors, .formBl, .rules, .discipline, .tables, .tournamentNet {
+		padding: 30px 0 50px;
+	}
+	.gifts, .sponsors, .discipline, .tables {
+		background-image: none;
+		background-color: #030304;
+	}
+	.gifts .wrapBord {
+		border: none;
+		padding: 0;
+	}
+	.gifts .wrapBord .wrapBack {
+		padding: 0;
+	}
+	.gifts .wrapBord .wrapBack .place13__img {
+		width: 50%;
+	}
+	.gifts .wrapBord .wrapBack .place46__img {
+		width: 80%;
+	}
+	.conditions .wrap {
+		margin-top: 20px;
+	}
+	.conditions .wrap .number {
+		font-size: 28px;
+		height: 33px;
+		width: 33px;
+	}
+	.rules .text {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	.discipline .wrap {
+		display: block;
+		&__item {
+			display: inline-block;
+			vertical-align: top;
+			width: 35%;
+    		margin: 0 15px;
+		}
+	}
+	.tables .matchWrap .match {
+    	width: 200px;
+		.team .nameTeam {
+			width: 57%;
+		}
+	}
+	.formBl.form2 {
+		margin-top: -200px;
+	}
+	.footer {
+		padding: 10px 0;
+	}
+	.tables .matchesAccord .panel .panel-body td {
+		font-size: 10px!important;
+	}
+}
+@media (min-width: 768px) {
+
+}
+@media (max-width: 736px) {
+
+}
+@media (max-width: 667px) {
+
+}
+@media (max-width: 640px) {
+
+}
+@media (max-width: 568px) {
+
+}
+@media (max-width: 415px) {
+
+}
+@media (min-width: 768px) {
+	
+}
+@media (max-width: 413px) {
+	
+}
+@media (max-width: 376px) {
+	
+}
+@media (max-width: 360px) {
+
+}
+@media (max-width: 321px) {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
